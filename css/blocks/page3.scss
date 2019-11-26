@@ -1,0 +1,78 @@
+/*---------------------------------Третья страница------------------------------------*/
+
+.reviews__list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 100%;
+  }
+  
+  .section {
+    height: 100vh;
+  }
+  
+  .section__title {
+    text-align: center;
+    flex: 1;
+    }
+  
+  .reviews {
+    height: 100%;
+  }
+  
+  .reviews__item {
+    width: 25%;
+    height: 50%;
+    position: relative;
+    filter: grayscale(100%);
+  }
+  
+  .reviews_photo {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  }
+  
+  .reviews__name {
+  color: #fff;
+  font-family: 'Gagalin';
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 33px;
+     
+  }
+  
+  .reviews___text {
+  font-family: Ubuntu-L;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 2;
+  text-overflow: ellipsis;
+  height: 200px;
+  overflow: hidden;
+  }
+  
+    
+  .btn__black {
+    background-color: #2f3224;
+    border: 0;
+  }
+  
+  .reviews__hover {
+    opacity: 0;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(47, 50, 36, 0.5);
+    transition: opacity .4s;
+    padding: 25px 20px 25px 20px;
+  
+  }
+  
+  .reviews__hover:hover {
+     opacity: 1;
+     }

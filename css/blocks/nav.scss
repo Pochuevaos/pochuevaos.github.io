@@ -1,0 +1,39 @@
+/*-------------------------Navigation--------------*/
+.container_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+  }
+  
+  .header {
+    display: flex;
+    position: absolute;
+    padding-top: 12px;   
+  }
+  
+  .nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .nav__item:nth-child(7) .nav__link::after {
+   visibility: hidden
+  }
+  
+  .nav__link {
+    text-decoration: none;
+    color: #fff;
+    line-height: 40px;
+    font-family: 'Ubuntu-R', sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    
+    &::after {
+    content: "•";
+    margin-right: 15px;
+    margin-left: 15px;
+    }
+  }

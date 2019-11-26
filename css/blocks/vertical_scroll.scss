@@ -1,0 +1,44 @@
+/*-------Vertical scroll-------*/
+
+.scroll {
+    position: fixed;
+    color: rgb(255, 255, 255);
+    right: 230px;
+    top: 100px;
+    z-index: 10;
+ }
+ .scroll__list {
+    position: absolute;
+    list-style-type: none;
+ }
+ .scroll__item--active {
+    
+ }
+ .scroll__item {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    margin-top: 4px;
+    position: relative;
+ }
+ .scroll__item:before {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+ }
+ 
+ .scroll__item--active{
+    border-color: #fff;
+    border: 1px solid #fff;
+ }
+ 

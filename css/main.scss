@@ -1,0 +1,54 @@
+/*-----------main.css--------*/
+
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+}
+
+body {
+  font-family: 'Ubuntu-L', sans-serif;
+  width: 100%;
+  background-color: #fff;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+   cursor: pointer;
+}
+div {
+   display: block;
+}
+
+.container {
+ width: 940px;
+ margin: 0 auto;
+}
+
+//fonts
+@import "fonts/fonts.scss";
+// vertical scroll
+@import "blocks/vertical_scroll.scss";
+//header navigation
+@import "blocks/nav.scss";
+//btn
+@import "blocks/btn.scss";
+//page1
+@import "blocks/page1.scss";
+//page2
+@import "blocks/page2.scss";
+//page3
+@import "blocks/page3.scss";
+
+
+
+/*# sourceMappingURL=main.css.map */
