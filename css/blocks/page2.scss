@@ -39,15 +39,17 @@
   
   .h {
     font-family: 'Lifehack Medium';
-    font-size: 30px;
+    font-size: 28px; // исправить на 24 отступ 28 
     color: #2f3234;
     text-align: center;
+    line-height: 28px;
   }
   
   .p {
     font-family: 'Ubuntu-L';
     color: #2f3234;
-    font-size: 20px;
+    font-size: 18px; //исправить на 14 , отступ межстрочный 24
+    line-height: 24px;
     text-align: center;
     margin: 15px;
   }

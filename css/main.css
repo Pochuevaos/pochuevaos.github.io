@@ -88,8 +88,10 @@ div {
 
 .header {
   display: flex;
-  position: absolute;
-  padding-top: 12px; }
+  position: relative;
+  padding-top: 12px;
+  width: 940px;
+  margin: 0 auto; }
 
 .nav__list {
   display: flex;
@@ -132,6 +134,9 @@ div {
   display: flex;
   flex-direction: column;
   justify-content: space-between; }
+
+.logo {
+  margin-right: 30px; }
 
 .burger_img {
   position: relative;
@@ -213,14 +218,16 @@ article {
 
 .h {
   font-family: 'Lifehack Medium';
-  font-size: 30px;
+  font-size: 28px;
   color: #2f3234;
-  text-align: center; }
+  text-align: center;
+  line-height: 28px; }
 
 .p {
   font-family: 'Ubuntu-L';
   color: #2f3234;
-  font-size: 20px;
+  font-size: 18px;
+  line-height: 24px;
   text-align: center;
   margin: 15px; }
 
@@ -274,12 +281,13 @@ article {
   font-weight: 300;
   line-height: 2;
   text-overflow: ellipsis;
-  height: 200px;
+  height: 175px;
   overflow: hidden; }
 
 .btn__black {
   background-color: #2f3224;
-  border: 0; }
+  border: 0;
+  margin-top: 20px; }
 
 .reviews__hover {
   opacity: 0;
