@@ -1,0 +1,104 @@
+.team-accordeon {
+position: absolute;
+top: 0;
+top: 0;
+bottom: 0;
+left: 49,5%;
+right: 0;
+height: 100%;
+background: rgba(62, 64, 66, 0.93);
+padding-top: 100px ;
+padding-left: 100px;
+width: 50%;
+
+}
+
+.team__title {
+margin-bottom: 30px;
+}
+
+.team-accordeon__list{
+    display: flex;
+    flex-direction: column;
+}
+
+.team-accordeon__item {
+display: inline-block;
+}
+
+.team-accordeon__trigger{
+cursor: pointer;
+font-family: 'Gagalin', Helvetica, sans-serif;
+text-transform: uppercase;
+font-size: 14px; // в макете 14
+display: inline-flex;
+align-items: center;
+color: $white;
+margin-bottom: 25px;
+&::before {
+    content: "";
+    display: block;
+    width: 20px; //скорректировала "на глаз" , так, как в макете 10 и 8 px- выглядят слишком маленькими
+    height: 18px;
+    margin-right: 10px;
+    background: url(../img/btn-up.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+}
+
+.team-accordeon__trigger--active {
+color: $yellow;
+    &::before {
+        background: url(../img/btn-down.png);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+.team-accordeon__content {
+display: flex;
+color: $white;
+width: 360px; //возможно нужно исправить на 360-380
+height: 0;
+overflow: hidden;
+line-height: 1.42;
+transition: height 1s;
+}
+
+.team-accordeon__trigger--active +.team-accordeon__content {
+    height: 100%;
+    margin-bottom: 30px;
+}
+
+.team-accordeon__content-photo {
+margin: o auto;
+width: 100px;
+height: 100px;
+border-radius: 100%;
+padding: 16px;
+}
+
+.team-accordeon__description{
+font-family: 'Ubuntu-L';
+
+ 
+}
+.team-accordeon__occupation {
+font-weight: 100;
+margin-bottom: 10px;
+font-size: 14px;
+font-weight: bold;
+//font-weight: bold; нужно сделать жирным, но сжимается фотка
+}
+
+.team-accordeon-info {
+    line-height: 24px;
+    font-size: 14px;
+    max-height: 99px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

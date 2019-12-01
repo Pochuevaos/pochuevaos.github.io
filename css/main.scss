@@ -34,6 +34,12 @@ div {
  margin: 0 auto;
 }
 
+//colors
+$yellow: #f9b43b;
+$red: #e35028;
+$white: #fff;
+$black: #2f3234;
+
 //fonts
 @import "fonts/fonts.scss";
 // vertical scroll
@@ -48,6 +54,17 @@ div {
 @import "blocks/page2.scss";
 //page3
 @import "blocks/page3.scss";
+//page_team
+@import "blocks/page_team.scss";
+//team
+@import "blocks/team.scss";
+//team-accordeon
+@import "blocks/team_accord.scss";
+@import "blocks/order-form.scss";
+@import "blocks/menu.scss";
+@import "blocks/contacts.scss";
+
+
 
 
 

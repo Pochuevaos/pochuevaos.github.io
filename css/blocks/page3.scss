@@ -35,7 +35,7 @@
   }
   
   .reviews__name {
-  color: #fff;
+  color: $white;
   font-family: 'Gagalin';
   font-size: 15px;
   font-weight: 300;
@@ -54,16 +54,11 @@
   }
   
     
-  .btn__black {
-    background-color: #2f3224;
-    border: 0;
-    margin-top: 20px;
-    
-  }
+ 
   
   .reviews__hover {
     opacity: 0;
-    color: #fff;
+    color: $white;
     position: absolute;
     top: 0;
     bottom: 0;

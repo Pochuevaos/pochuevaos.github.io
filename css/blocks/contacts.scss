@@ -1,0 +1,49 @@
+.contacts {
+    background: url(../img/bg-map1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    //overflow: hidden;
+    position: relative;
+    //padding-bottom: 60px;
+}
+
+footer {
+    height: 60px;
+    width: 100%;
+    position: absolute;
+    background: url(../img/bg-map2.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 0;
+	bottom: 0;
+   
+}
+
+.footer__info {
+    display: flex;
+    justify-content: center;
+    padding: 14px;
+    text-align: center;
+    color: $white;
+    height: 40px;
+}
+
+.contacts__text {
+    flex: 1;
+    font-family: "Ubuntu-L",sans-serif;
+    font-size: 14px;
+}
+
+.contacts__icon {
+    flex: 1;
+}
+
+.phone {
+    color: $red;
+    font-weight: bold;
+}
+

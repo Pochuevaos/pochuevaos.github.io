@@ -1,7 +1,10 @@
 /*---------------------------------Вторая страница------------------------------------*/
 
 .section_best  {
-    background: url(../img/bg2.jpg) center (center / cover) no-repeat;
+    background: url(../img/bg2.jpg) ;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
     position: relative;
@@ -24,7 +27,7 @@
   
   
   h1 {
-    color: #2f3234;
+    color: $black;
     font-family: 'Gagalin';
     font-size: 55px;
     line-height: 85px;
@@ -40,14 +43,14 @@
   .h {
     font-family: 'Lifehack Medium';
     font-size: 28px; // исправить на 24 отступ 28 
-    color: #2f3234;
+    color: $black;
     text-align: center;
     line-height: 28px;
   }
   
   .p {
     font-family: 'Ubuntu-L';
-    color: #2f3234;
+    color: $black;
     font-size: 18px; //исправить на 14 , отступ межстрочный 24
     line-height: 24px;
     text-align: center;
