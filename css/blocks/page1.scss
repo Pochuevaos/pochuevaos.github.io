@@ -15,7 +15,18 @@
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 3;
+    padding: 0 30%;
+   
   }
+
+  }
+
+
   
 .logo-icon {
   
@@ -32,6 +43,8 @@
       position: relative;
     flex: 1;
     display: block;
+
+    
   } 
   
   /*Текст мы делаем натуральные бургеры*/
@@ -46,6 +59,13 @@
     //line-height: 85px;
     padding: 0;
     margin: 0;
+    
+
+    @media screen and (max-width: 768px) {
+      //font-size: 4rem;
+      //line-height:4rem;
+      text-align: center;
+    }
   }
   
   .description {
@@ -79,6 +99,13 @@
     font-size: 3.75rem;
     width: 25.375rem;
     margin: 0;
+   
+
+    @media screen and (max-width: 768px) {
+     // font-size: 3rem;
+      text-align: center;
+     // line-height: 3rem;
+    }
   }
   
   // Кнопка скролл 
@@ -91,3 +118,32 @@
    //height: 78px;
    margin-left: 50%; 
   }
+
+  //----------------hamburger-menu----//
+
+  .burgnav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.4375rem;
+  }
+  
+  .burg {
+    width: 1.5rem;
+    height: 0.3125rem;
+    background-color: $white;
+    margin: 0.1875rem 0;
+    margin-left: 0.375rem;
+    
+    border-radius: 0.375rem;
+    
+      }
+  @media screen and (min-width: 768px) {
+    .burgnav  {
+          display: none;;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        .nav__link {
+              display: none;;
+            }
+          }

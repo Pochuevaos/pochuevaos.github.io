@@ -12,6 +12,16 @@
 .order__title {
     text-align: center;
     padding: 5%;
+    @media screen and (min-width: 768px) {
+        padding: 2%;
+ 
+   }
+   @media screen and (max-width: 480px) {
+  
+    padding: 0 2%;
+}
+
+    
 }
 
 
@@ -40,7 +50,10 @@
 }
 
 .form{
-    display: flex;
+    @media screen and (min-width: 768px) {
+     display: flex;  
+}
+
 }
 .form__col {
     flex: 1;
@@ -48,8 +61,11 @@
 
 .form__row {
     display: flex;
-    margin-bottom: 0.9375rem;
-    //margin-bottom: 15px;
+    margin-bottom: 0.9375rem;//margin-bottom: 15px;
+    @media screen and (min-width: 768px) {
+        margin-bottom: 1%;
+ 
+   }
 }
 
 .form__label {
@@ -83,5 +99,29 @@
 
 .form__checkbox {
     color: $red;
+}
+
+.form__order {
+    display: flex;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        padding: 0 16%;
+   }
+   @media screen and (max-width: 480px) {
+    flex-direction: column;
+    padding: 0 2%;
+}
+
+
+}
+
+.form__col {
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        float: none;
+        margin-left: 0;
+      }
+
 }
 

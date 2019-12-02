@@ -1,3 +1,4 @@
+
 .contacts {
     background: url(../img/bg-map1.jpg);
     background-position: center center;
@@ -5,11 +6,118 @@
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
-    //overflow: hidden;
     position: relative;
-    //padding-bottom: 60px;
+    //opacity: 50%;
+    
 }
 
+.socials {
+    text-align: center;
+  }
+
+.footer {
+    background: url(../img/bg-map2.jpg);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.875rem 0;
+    //opacity: 50%;
+}
+
+.footer__container {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  @media screen and (max-width: 480px) {
+    .footer__container {
+      flex-direction: column;
+    }
+  }
+
+  .footer__col {
+    width: 50%;
+    text-align: left;
+  }
+
+  @media screen and (max-width: 480px) {
+    .footer__col {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  address {
+    font-style: normal;
+  }
+
+  .footer__text {
+    font-family: 'Ubuntu-L';
+    font-weight: 300;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    color: $white;
+  }
+
+
+.footer__phone {
+    font-family: 'Ubuntu-L';
+    font-weight: bold;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    color: $red;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .footer__col-right {
+    width: 50%;
+    text-align: right;
+  }
+  @media screen and (max-width: 480px) {
+    .footer__col-right {
+      margin-top: 0.75rem;
+    }
+  }
+
+  .socials {
+    text-align: center;
+    
+  }
+
+  
+.social__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1.25rem;
+  }
+  
+.social__item:nth-child(1) {
+    margin: 0;
+  }
+
+  
+  .social__link-icon {
+  height: 1.25rem;
+  width: 1.25rem;
+  fill: #585858;
+  filter: grayscale(100%);
+  transition: .3s;
+} 
+
+
+  
+
+
+/*  
 footer {
     height: 3.75rem;
     //height: 60px;
@@ -27,6 +135,7 @@ footer {
 .footer__info {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     padding: 0.875rem;
     //padding: 14px;
     text-align: center;
@@ -39,6 +148,8 @@ footer {
     flex: 1;
     font-family: "Ubuntu-L",sans-serif;
     font-size: 0.875rem;
+ 
+   
     //font-size: 14px;
 }
 
@@ -49,7 +160,14 @@ footer {
 .phone {
     color: $red;
     font-weight: bold;
+    height: 0.6875rem;
+    width: 0.75rem;
+    flex: 1;
 }
+.adress {
+    flex: 1;
+}
+
 
 .mapmarker-icon {
     height: 3.5625rem;
@@ -71,4 +189,4 @@ footer {
     width: 1.25rem;
     //height: 20px;
     //width: 20px;
-}
+} */

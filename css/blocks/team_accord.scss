@@ -11,6 +11,13 @@ padding-top: 6.25rem ; //было 100
 padding-left: 6.25rem ; //было 100
 width: 50%;
 
+@media screen and (max-width: 768px) {
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+   
+  }
+
 }
 
 .team__title {
@@ -24,6 +31,9 @@ margin-bottom: 1.875rem; //было 30
 
 .team-accordeon__item {
 display: inline-block;
+
+
+
 }
 
 .team-accordeon__trigger{
@@ -67,6 +77,13 @@ height: 0;
 overflow: hidden;
 line-height: 1.42;
 transition: height 1s;
+
+@media screen and (max-width: 768px) {
+    display: block;
+  margin: 0 auto;
+   
+  }
+
 }
 
 .team-accordeon__trigger--active +.team-accordeon__content {

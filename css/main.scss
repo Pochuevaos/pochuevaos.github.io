@@ -6,11 +6,30 @@
   box-sizing: border-box;
 }
 
+@mixin tablets {
+  @media screen and (max-width: 768px) {
+      @content;
+  }
+}
+
+@mixin phones {
+  @media screen and (max-width: 480px) {
+      @content;
+  }
+}
+
 html {
   width: 100%;
   font-size: 16px;
-}
 
+  @include tablets {
+    font-size: 14px;
+  }
+
+  @include phones {
+  font-size: 14px;
+}
+}
 body {
   font-family: 'Ubuntu-L', sans-serif;
   width: 100%;
@@ -32,15 +51,22 @@ div {
 
 .container {
  width: 94%;
- //width: 940px;
+ max-width: 58.75rem; //940px
  margin: 0 auto;
 }
 
+img {
+  width: 100%;
+}
 //colors
 $yellow: #f9b43b;
 $red: #e35028;
 $white: #fff;
 $black: #2f3234;
+
+p {
+  margin: 0;
+}
 
 //fonts
 @import "fonts/fonts.scss";
