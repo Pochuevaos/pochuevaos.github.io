@@ -8,9 +8,9 @@
   .header {
     display: flex;
     position: relative;
-    padding-top: rem(12px);
+    //padding-top: 12px;
+    padding-top: 0.75rem;
     width: 95%;
-    //width: rem(940px);
     margin: 0 auto;   
   }
   
@@ -29,14 +29,18 @@
   .nav__link {
     text-decoration: none;
     color: $white;
-    line-height: rem(40px);
+    line-height: 2.5rem;
+    //line-height: 40px;
     font-family: 'Ubuntu-R', sans-serif;
     text-transform: uppercase;
-    font-size: rem(13px);
+    font-size: 0.8125rem;
+    //font-size: 13px;
     
     &::after {
     content: "•";
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-right: 0.9375rem;
+    margin-left: 0.9375rem;
+    //margin-right: 15px;
+    //margin-left: 15px;
     }
   }

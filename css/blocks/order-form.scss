@@ -18,21 +18,19 @@
 .form__label-title {
     color: $white;
     font-family: 'Ubuntu-L',sans-serif;
-    font-size: 14px;
-    //padding: 10px;
-    //padding-left: 0%;
-    //padding-right: 20px;
-    //margin-bottom: 10px;
-   padding-bottom: 7px;
-    //margin-right: 20px;
+    font-size: 0.875rem; 
+    padding-bottom: 0.4375rem;
+    //font-size: 14px;  
+    //padding-bottom: 7px;
+   
     
 }
 
 
 .form__input {
-    border: 2px solid transparent;
-    border-radius: 4px;
-    padding: 7px 21px;
+    border: 0.125rem solid transparent;
+    border-radius: 0.25rem;
+    padding: 0.4375rem 1.3125rem;
     //margin-bottom: 10px;
     outline: none;
     box-sizing: border-box;
@@ -40,34 +38,6 @@
     //flex: 1;
     
 }
-
-/*.textarea {
-    border-radius: 4px;
-    text-rendering: auto;
-    color: initial;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: start;
-    -webkit-appearance: textarea;
-    background-color: white;
-    -webkit-rtl-ordering: logical;
-    flex-direction: column;
-    resize: auto;
-    cursor: text;
-    white-space: pre-wrap;
-    overflow-wrap: break-word;
-    margin: 0em;
-    font: 400 13.3333px Arial;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgb(169, 169, 169);
-    border-image: initial;
-    padding: 2px;  
-} */
 
 .form{
     display: flex;
@@ -78,12 +48,14 @@
 
 .form__row {
     display: flex;
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
+    //margin-bottom: 15px;
 }
 
 .form__label {
     flex: 1;
-    margin-left: 20px;
+    margin-left: 1.25rem;
+    //margin-left: 20px;
     &:first-child {
         margin-left: o;
     }
@@ -91,11 +63,13 @@
 
 
 .form__textarea{
-    min-height: 107px;
+    min-height: 6.6875rem;
+    //min-height: 107px;
 }
 
 .form__button {
-    margin-left: 20px;
+    margin-left: 1.25rem;
+    //margin-left: 20px;
     margin-top: 0%;
 }
 
