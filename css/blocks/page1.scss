@@ -10,7 +10,13 @@
     justify-content: space-between;
   }
   
-.logo {
+/*.logo {
+  margin-right: 30px;
+} */
+
+.logo-icon {
+  height: 69px;
+  width: 92px;
   margin-right: 30px;
 }
 
@@ -63,9 +69,18 @@
   
   // Кнопка скролл 
   
-  .scroll-button {
+  /*.scroll-button {
   text-align: center;
   height: 78px;
   display: flex;
   justify-content: center;
-  }
+  } */
+
+ .scroll-icon {
+   height: 14px;
+   width: 29px;
+   text-align: center;
+   height: 78px;
+   margin-left: 50%;  //не уверена что так надо выравнивать
+
+ }

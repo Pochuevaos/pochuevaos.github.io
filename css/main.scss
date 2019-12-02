@@ -8,6 +8,7 @@
 
 html {
   width: 100%;
+  font-size: 16px;
 }
 
 body {
@@ -30,7 +31,8 @@ div {
 }
 
 .container {
- width: 940px;
+ width: 94%;
+ //width: 940px;
  margin: 0 auto;
 }
 
@@ -63,6 +65,8 @@ $black: #2f3234;
 @import "blocks/order-form.scss";
 @import "blocks/menu.scss";
 @import "blocks/contacts.scss";
+@import "blocks/media.scss";
+
 
 
 

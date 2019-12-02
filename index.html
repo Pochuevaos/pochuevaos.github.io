@@ -16,7 +16,11 @@
             <header class="header">
                 <div class="container container_header">
                     <div class="logo">
-                        <img src="img/logo.svg" alt="логотип">
+                        <svg class="logo-icon">
+                            <use xlink:href="./sprite.svg#logo"></use>
+                        </svg>
+                        
+                        <!--<img src="img/logo.svg" alt="логотип"> -->
                     </div>
                     <nav class="header_nav">
                         <ul class="nav__list">
@@ -105,7 +109,11 @@
             </div>
         </div>
         <div class="scroll-button">
-            <img src="/img/arrow-scroll.svg" alt="scroll">
+                <svg class="scroll-icon">
+                        <use xlink:href="./sprite.svg#scroll"></use>
+                    </svg>
+
+         <!-- <img src="/img/arrow-scroll.svg" alt="scroll">--> 
         </div>
     </section>
 
@@ -119,7 +127,10 @@
 
             <ul class="best-list">
                 <li class="best-list__item">
-                    <img src="/img/meat.svg" alt="meat" class="icon">
+                        <svg class="meat-icon">
+                                <use xlink:href="./sprite.svg#meat"></use>
+                        </svg>
+                  <!-- <img src="/img/meat.svg" alt="meat" class="icon"> -->
                     <h2 class="h">100% свежее мясо</h2>
 
                     <p class="p">Драма представляет собой деструктивный цикл. Анапест представляет собой анапест. Ямб
@@ -127,7 +138,10 @@
                 </li>
 
                 <li class="best-list__item">
-                    <img src="/img/hand.svg" alt="hand" class="icon">
+                        <svg class="hand-icon">
+                                <use xlink:href="./sprite.svg#hand"></use>
+                        </svg>
+                 <!-- <img src="/img/hand.svg" alt="hand" class="icon">-->  
                     <h2 class="h">Ручная сборка</h2>
 
                     <p class="p">Драма представляет собой деструктивный цикл. Анапест представляет собой анапест. Первое
@@ -135,7 +149,10 @@
                 </li>
 
                 <li class="best-list__item">
-                    <img src="/img/natural.svg" alt="natural" class="icon">
+                        <svg class="leaf-icon">
+                                <use xlink:href="./sprite.svg#leaf"></use>
+                        </svg>
+                  <!--<img src="/img/natural.svg" alt="natural" class="icon">-->  
                     <h2 class="h">Натуральные <br> ингредиенты</h2>
 
                     <p class="p">Драма представляет собой деструктивный цикл. Анапест представляет собой анапест. </p>
@@ -471,17 +488,70 @@
       <!-----------------------------------page contacts-------------------------------->
       <section class="section contacts" id="contacts">
           <div class="contacts__map">
+                <svg class="mapmarker-icon">
+                        <use xlink:href="./sprite.svg#mapmarker"></use>
+                </svg>
+                <svg class="mapmarker-icon">
+                        <use xlink:href="./sprite.svg#mapmarker"></use>
+                </svg>
+                <svg class="mapmarker-icon">
+                        <use xlink:href="./sprite.svg#mapmarker"></use>
+                </svg>
+                <svg class="mapmarker-icon">
+                        <use xlink:href="./sprite.svg#mapmarker"></use>
+                </svg>
+
+             <!--   <img src="../img/map-marker.svg" alt="map-marker1" class="icon">
+                <img src="../img/map-marker.svg" alt="map-marker2" class="icon">
+                <img src="../img/map-marker.svg" alt="map-marker3" class="icon">  -->
 
           </div>
           <footer class="footer__contacts">
               <div class="footer__info">
-                  <div class="contacts__text"> 
-                      <div class="adress">Санкт-Петербург,ул.Бабушкина,д.12/1</div>
-                      <div class="phone">+7(812)377-13-77</div>
+                  <div class="contacts__text">
+                        
+                      <div class="adress">
+                          Санкт-Петербург,ул.Бабушкина,д.12/1</div>
+                      <div class="phone">
+                        <img src="../img/phone.svg" alt="phone" class="icon">  
+                        +7(812)377-13-77</div>
                       
 
                   </div>
-                  <div class="contacts__icon"> 
+                  <div class="contacts__icon">
+                      <ul class="contacts__list">
+                          <li contacts__item>
+                                <svg class="vk-icon">
+                                        <use xlink:href="./sprite.svg#vk"></use>
+                                </svg>
+                                <svg class="fb-icon">
+                                        <use xlink:href="./sprite.svg#fb"></use>
+                                </svg>
+                                <svg class="inst-icon">
+                                        <use xlink:href="./sprite.svg#inst"></use>
+                                </svg>
+                                <svg class="twit-icon">
+                                        <use xlink:href="./sprite.svg#twit"></use>
+                                </svg>
+
+
+
+
+                             <!--  <img src="../img/vk.svg" alt="vk" class="icon">
+                                <img src="../img/fb.svg" alt="fb" class="icon">
+                                <img src="../img/inst.svg" alt="instagram" class="icon">
+                                <img src="../img/twitter.svg" alt="twitter" class="icon">--> 
+
+                                
+
+
+                                
+
+
+
+                          </li>
+
+                      </ul>
 
                   </div>
 
@@ -491,4 +561,277 @@
 
       </section>
 
+
+      <!-----------------------------------без него не отображает-------------------------------->
+ <section class="section menu" id="menu">
+        <h1 class="section__title menu__title">Меню</h1>
+
+        <ul class="menu__list">
+            <li class="menu__item menu__item-active">
+                <a href="" class="menu__item-title" style="background-image: url(../img/open-menu1.jpg)">
+                    <div class="menu__title-text">Для мясоедов</div>
+                </a>
+                <div class="menu__item-desc">
+                    <div class="menu__item-text">
+                        Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный
+                        механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник
+                        стал особенно чутко относиться к слову, однако механизм сочленений неустойчив. Модальность
+                        высказывания, как справедливо считает И.Гальперин, пространственно выбирает метр. Речевой
+                        акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный
+                        механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник
+                        стал особенно чутко относиться к слову.
+                    </div>
+                    <a class="cross cross__menu">
+                            <div class="cross__item cross__item_top"></div>
+                            <div class="cross__item cross__item_bottom"></div>
+                    </a>
+                </div>
+            </li>
+            <li class="menu__item" id="menu__item">
+                <a href="" class="menu__item-title" style="background-image: url(../img/open-menu2.jpg)">
+                    <div class="menu__title-text">Вегетарианское</div>
+                </a>
+                <div class="menu__item-desc">
+                    <div class="menu__item-text">
+                        Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный
+                        механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник
+                        стал особенно чутко относиться к слову, однако механизм сочленений неустойчив. Модальность
+                        высказывания, как справедливо считает И.Гальперин, пространственно выбирает метр. Речевой
+                        акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный
+                        механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник
+                        стал особенно чутко относиться к слову.
+                    </div>
+                    <a class="cross cross__menu" href="">
+                        <div class="cross__item cross__item_top"></div>
+                        <div class="cross__item cross__item_bottom"></div>
+                    </a>
+                </div>
+            </li>
+            <li class="menu__item">
+                <a href="" class="menu__item-title" style="background-image: url(../img/open-menu3.jpg)">
+                    <div class="menu__title-text">Диетическое</div>
+                </a>
+                <div class="menu__item-desc">
+                    <div class="menu__item-text">
+                        Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный
+                        механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник
+                        стал особенно чутко относиться к слову, однако механизм сочленений неустойчив. Модальность
+                        высказывания, как справедливо считает И.Гальперин, пространственно выбирает метр. Речевой
+                        акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный
+                        механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник
+                        стал особенно чутко относиться к слову.
+                    </div>
+                    <a class="cross cross__menu" href="">
+                        <div class="cross__item cross__item_top"></div>
+                        <div class="cross__item cross__item_bottom"></div>
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </section>
+ 
+
+      <!-----------------------------------без него не отображает-------------------------------->
+      <section class="section menu" id="menu">
+            <h1 class="section__title menu__title">Меню</h1>
+    
+            <ul class="menu__list">
+                <li class="menu__item menu__item-active">
+                    <a href="" class="menu__item-title" style="background-image: url(../img/open-menu1.jpg)">
+                        <div class="menu__title-text">Для мясоедов</div>
+                    </a>
+                    <div class="menu__item-desc">
+                        <div class="menu__item-text">
+                            Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный
+                            механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник
+                            стал особенно чутко относиться к слову, однако механизм сочленений неустойчив. Модальность
+                            высказывания, как справедливо считает И.Гальперин, пространственно выбирает метр. Речевой
+                            акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный
+                            механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник
+                            стал особенно чутко относиться к слову.
+                        </div>
+                        <a class="cross cross__menu">
+                                <div class="cross__item cross__item_top"></div>
+                                <div class="cross__item cross__item_bottom"></div>
+                        </a>
+                    </div>
+                </li>
+                <li class="menu__item" id="menu__item">
+                    <a href="" class="menu__item-title" style="background-image: url(../img/open-menu2.jpg)">
+                        <div class="menu__title-text">Вегетарианское</div>
+                    </a>
+                    <div class="menu__item-desc">
+                        <div class="menu__item-text">
+                            Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный
+                            механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник
+                            стал особенно чутко относиться к слову, однако механизм сочленений неустойчив. Модальность
+                            высказывания, как справедливо считает И.Гальперин, пространственно выбирает метр. Речевой
+                            акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный
+                            механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник
+                            стал особенно чутко относиться к слову.
+                        </div>
+                        <a class="cross cross__menu" href="">
+                            <div class="cross__item cross__item_top"></div>
+                            <div class="cross__item cross__item_bottom"></div>
+                        </a>
+                    </div>
+                </li>
+                <li class="menu__item">
+                    <a href="" class="menu__item-title" style="background-image: url(../img/open-menu3.jpg)">
+                        <div class="menu__title-text">Диетическое</div>
+                    </a>
+                    <div class="menu__item-desc">
+                        <div class="menu__item-text">
+                            Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный
+                            механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник
+                            стал особенно чутко относиться к слову, однако механизм сочленений неустойчив. Модальность
+                            высказывания, как справедливо считает И.Гальперин, пространственно выбирает метр. Речевой
+                            акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный
+                            механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник
+                            стал особенно чутко относиться к слову.
+                        </div>
+                        <a class="cross cross__menu" href="">
+                            <div class="cross__item cross__item_top"></div>
+                            <div class="cross__item cross__item_bottom"></div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+         <!-----------------------------------без него не отображает-------------------------------->
+ <section class="section menu" id="menu">
+        <h1 class="section__title menu__title">Меню</h1>
+
+        <ul class="menu__list">
+            <li class="menu__item menu__item-active">
+                <a href="" class="menu__item-title" style="background-image: url(../img/open-menu1.jpg)">
+                    <div class="menu__title-text">Для мясоедов</div>
+                </a>
+                <div class="menu__item-desc">
+                    <div class="menu__item-text">
+                        Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный
+                        механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник
+                        стал особенно чутко относиться к слову, однако механизм сочленений неустойчив. Модальность
+                        высказывания, как справедливо считает И.Гальперин, пространственно выбирает метр. Речевой
+                        акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный
+                        механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник
+                        стал особенно чутко относиться к слову.
+                    </div>
+                    <a class="cross cross__menu">
+                            <div class="cross__item cross__item_top"></div>
+                            <div class="cross__item cross__item_bottom"></div>
+                    </a>
+                </div>
+            </li>
+            <li class="menu__item" id="menu__item">
+                <a href="" class="menu__item-title" style="background-image: url(../img/open-menu2.jpg)">
+                    <div class="menu__title-text">Вегетарианское</div>
+                </a>
+                <div class="menu__item-desc">
+                    <div class="menu__item-text">
+                        Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный
+                        механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник
+                        стал особенно чутко относиться к слову, однако механизм сочленений неустойчив. Модальность
+                        высказывания, как справедливо считает И.Гальперин, пространственно выбирает метр. Речевой
+                        акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный
+                        механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник
+                        стал особенно чутко относиться к слову.
+                    </div>
+                    <a class="cross cross__menu" href="">
+                        <div class="cross__item cross__item_top"></div>
+                        <div class="cross__item cross__item_bottom"></div>
+                    </a>
+                </div>
+            </li>
+            <li class="menu__item">
+                <a href="" class="menu__item-title" style="background-image: url(../img/open-menu3.jpg)">
+                    <div class="menu__title-text">Диетическое</div>
+                </a>
+                <div class="menu__item-desc">
+                    <div class="menu__item-text">
+                        Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный
+                        механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник
+                        стал особенно чутко относиться к слову, однако механизм сочленений неустойчив. Модальность
+                        высказывания, как справедливо считает И.Гальперин, пространственно выбирает метр. Речевой
+                        акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный
+                        механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник
+                        стал особенно чутко относиться к слову.
+                    </div>
+                    <a class="cross cross__menu" href="">
+                        <div class="cross__item cross__item_top"></div>
+                        <div class="cross__item cross__item_bottom"></div>
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </section>
+ 
+ <!-----------------------------------без него не отображает-------------------------------->
+ <section class="section menu" id="menu">
+    <h1 class="section__title menu__title">Меню</h1>
+
+    <ul class="menu__list">
+        <li class="menu__item menu__item-active">
+            <a href="" class="menu__item-title" style="background-image: url(../img/open-menu1.jpg)">
+                <div class="menu__title-text">Для мясоедов</div>
+            </a>
+            <div class="menu__item-desc">
+                <div class="menu__item-text">
+                    Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный
+                    механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник
+                    стал особенно чутко относиться к слову, однако механизм сочленений неустойчив. Модальность
+                    высказывания, как справедливо считает И.Гальперин, пространственно выбирает метр. Речевой
+                    акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный
+                    механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник
+                    стал особенно чутко относиться к слову.
+                </div>
+                <a class="cross cross__menu">
+                        <div class="cross__item cross__item_top"></div>
+                        <div class="cross__item cross__item_bottom"></div>
+                </a>
+            </div>
+        </li>
+        <li class="menu__item" id="menu__item">
+            <a href="" class="menu__item-title" style="background-image: url(../img/open-menu2.jpg)">
+                <div class="menu__title-text">Вегетарианское</div>
+            </a>
+            <div class="menu__item-desc">
+                <div class="menu__item-text">
+                    Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный
+                    механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник
+                    стал особенно чутко относиться к слову, однако механизм сочленений неустойчив. Модальность
+                    высказывания, как справедливо считает И.Гальперин, пространственно выбирает метр. Речевой
+                    акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный
+                    механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник
+                    стал особенно чутко относиться к слову.
+                </div>
+                <a class="cross cross__menu" href="">
+                    <div class="cross__item cross__item_top"></div>
+                    <div class="cross__item cross__item_bottom"></div>
+                </a>
+            </div>
+        </li>
+        <li class="menu__item">
+            <a href="" class="menu__item-title" style="background-image: url(../img/open-menu3.jpg)">
+                <div class="menu__title-text">Диетическое</div>
+            </a>
+            <div class="menu__item-desc">
+                <div class="menu__item-text">
+                    Речевой акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный
+                    механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник
+                    стал особенно чутко относиться к слову, однако механизм сочленений неустойчив. Модальность
+                    высказывания, как справедливо считает И.Гальперин, пространственно выбирает метр. Речевой
+                    акт редуцирует диалектический характер. Развивая эту тему, заимствование редуцирует конструктивный
+                    механизм сочленений. Лирический субъект начинает диссонансный анжамбеман. Наш современник
+                    стал особенно чутко относиться к слову.
+                </div>
+                <a class="cross cross__menu" href="">
+                    <div class="cross__item cross__item_top"></div>
+                    <div class="cross__item cross__item_bottom"></div>
+                </a>
+            </div>
+        </li>
+    </ul>
+</section>
 
