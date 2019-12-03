@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$white".
-        on line 29 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\order-form.scss
+        on line 32 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\order-form.scss
 
-24:     
-25: }
-26: 
-27: 
-28: .form__label-title {
-29:     color: $white;
-30:     font-family: 'Ubuntu-L',sans-serif;
-31:     font-size: 0.875rem; 
-32:     padding-bottom: 0.4375rem;
-33:     //font-size: 14px;  
-34:     //padding-bottom: 7px;
+27:     
+28: }
+29: 
+30: 
+31: .form__label-title {
+32:     color: $white;
+33:     font-family: 'Ubuntu-L',sans-serif;
+34:     font-size: 0.875rem; 
+35:     padding-bottom: 0.4375rem;
+36: }
+37: 
 
 Backtrace:
-C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\order-form.scss:29
+C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\order-form.scss:32
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -62,4 +62,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 29 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\order-form.scss\A \A 24:     \A 25: }\A 26: \A 27: \A 28: .form__label-title {\A 29:     color: $white;\A 30:     font-family: 'Ubuntu-L',sans-serif;\A 31:     font-size: 0.875rem; \A 32:     padding-bottom: 0.4375rem;\A 33:     //font-size: 14px;  \A 34:     //padding-bottom: 7px;"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 32 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\order-form.scss\A \A 27:     \A 28: }\A 29: \A 30: \A 31: .form__label-title {\A 32:     color: $white;\A 33:     font-family: 'Ubuntu-L',sans-serif;\A 34:     font-size: 0.875rem; \A 35:     padding-bottom: 0.4375rem;\A 36: }\A 37: "; }

@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$white".
-        on line 69 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\contacts.scss
+        on line 30 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\nav.scss
 
-64:   .footer__text {
-65:     font-family: 'Ubuntu-L';
-66:     font-weight: 300;
-67:     font-size: 0.875rem;
-68:     line-height: 1.5rem;
-69:     color: $white;
-70:   }
-71: 
-72: 
-73: .footer__phone {
-74:     font-family: 'Ubuntu-L';
+25:    visibility: hidden
+26:   }
+27:   
+28:   .nav__link {
+29:     text-decoration: none;
+30:     color: $white;
+31:     line-height: 2.5rem;
+32:     font-family: 'Ubuntu-R', sans-serif;
+33:     text-transform: uppercase;
+34:     font-size: 0.8125rem;
+35:     
 
 Backtrace:
-C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\contacts.scss:69
+C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\nav.scss:30
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -62,4 +62,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 69 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\contacts.scss\A \A 64:   .footer__text {\A 65:     font-family: 'Ubuntu-L';\A 66:     font-weight: 300;\A 67:     font-size: 0.875rem;\A 68:     line-height: 1.5rem;\A 69:     color: $white;\A 70:   }\A 71: \A 72: \A 73: .footer__phone {\A 74:     font-family: 'Ubuntu-L';"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 30 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\nav.scss\A \A 25:    visibility: hidden\A 26:   }\A 27:   \A 28:   .nav__link {\A 29:     text-decoration: none;\A 30:     color: $white;\A 31:     line-height: 2.5rem;\A 32:     font-family: 'Ubuntu-R', sans-serif;\A 33:     text-transform: uppercase;\A 34:     font-size: 0.8125rem;\A 35:     "; }

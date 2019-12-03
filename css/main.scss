@@ -51,22 +51,24 @@ div {
 
 .container {
  width: 94%;
- max-width: 58.75rem; //940px
+ max-width: 58.75rem; 
  margin: 0 auto;
+}
+p {
+  margin: 0;
 }
 
 img {
   width: 100%;
 }
+
 //colors
 $yellow: #f9b43b;
 $red: #e35028;
 $white: #fff;
 $black: #2f3234;
 
-p {
-  margin: 0;
-}
+
 
 //fonts
 @import "fonts/fonts.scss";

@@ -92,17 +92,18 @@ transition: height 1s;
 }
 
 .team-accordeon__content-photo {
-margin: o auto;
-width: 6.25rem; //was100
-height: 6.25rem; //was100
-border-radius: 100%;
-padding: 1rem; //was16
-}
-
-.team-accordeon__description{
+    margin: 0 auto;
+    width: 6.25rem; //was100
+    height: 6.25rem; //was100
+    border-radius: 100%;
+    padding: 1rem; 
+    }
+    
+.team-accordeon__description {
 font-family: 'Ubuntu-L';
 
 }
+
 .team-accordeon__occupation {
 font-weight: 100;
 margin-bottom: 0.625rem; //was10

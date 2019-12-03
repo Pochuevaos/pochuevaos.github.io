@@ -1,4 +1,4 @@
-/*---------------------------------Отзывы-----------------------------------*/
+/*---------------------------------Rewiews-----------------------------------*/
 
 .reviews__list{
     display: flex;
@@ -44,19 +44,19 @@
   .reviews__name {
   color: $white;
   font-family: 'Gagalin';
-  font-size: 0.9375rem; //было 15 
+  font-size: 0.9375rem; 
   font-weight: 300;
-  line-height: 2.0625rem; //было 33
+  line-height: 2.0625rem; 
      
   }
   
   .reviews___text {
   font-family: Ubuntu-L;
-  font-size: 0.875rem; //было 14
+  font-size: 0.875rem; 
   font-weight: 300;
   line-height: 2;
   text-overflow: ellipsis;
-  height: 10.9375rem; //было 175
+  height: 10.9375rem; 
   overflow: hidden;
   @media screen and (max-width: 768px) {
     padding: 0;
@@ -84,7 +84,7 @@
     right: 0;
     background-color: rgba(47, 50, 36, 0.5);
     transition: opacity .4s;
-    padding: 1.5625rem 1.25rem 1.5625rem 1.25rem;  //было 25px 20px 25px 20px
+    padding: 1.5625rem 1.25rem 1.5625rem 1.25rem; 
 
     
     @media screen and (max-width: 768px) {
@@ -94,11 +94,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-       
     }
-
-  
-  
   }
   
   .reviews__hover:hover {

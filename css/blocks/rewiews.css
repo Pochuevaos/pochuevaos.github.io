@@ -9,9 +9,9 @@ Error: Undefined variable: "$white".
 44:   .reviews__name {
 45:   color: $white;
 46:   font-family: 'Gagalin';
-47:   font-size: 0.9375rem; //было 15 
+47:   font-size: 0.9375rem; 
 48:   font-weight: 300;
-49:   line-height: 2.0625rem; //было 33
+49:   line-height: 2.0625rem; 
 50:      
 
 Backtrace:
@@ -62,4 +62,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 45 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\rewiews.scss\A \A 40:   object-fit: cover;\A 41:   object-position: center;\A 42:   }\A 43:   \A 44:   .reviews__name {\A 45:   color: $white;\A 46:   font-family: 'Gagalin';\A 47:   font-size: 0.9375rem; //было 15 \A 48:   font-weight: 300;\A 49:   line-height: 2.0625rem; //было 33\A 50:      "; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 45 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\rewiews.scss\A \A 40:   object-fit: cover;\A 41:   object-position: center;\A 42:   }\A 43:   \A 44:   .reviews__name {\A 45:   color: $white;\A 46:   font-family: 'Gagalin';\A 47:   font-size: 0.9375rem; \A 48:   font-weight: 300;\A 49:   line-height: 2.0625rem; \A 50:      "; }

@@ -1,4 +1,4 @@
-/*---------------------------------Вторая страница------------------------------------*/
+/*---------------------------------Page2------------------------------------*/
 
 .section_best  {
     background: url(../img/bg2.jpg) ;
@@ -24,9 +24,6 @@
     font-family: 'Gagalin';
     font-size: 3.4375rem;
     line-height: 5.3125rem;
-
-    //font-size: 55px;
-    //line-height: 85px;
     font-weight: 100;
     margin-top: 0;
   }
@@ -38,22 +35,29 @@
   
   .h {
     font-family: 'Lifehack Medium';
-    font-size: 1.5rem; // было 24px
+    font-size: 1.5rem; 
     color: $black;
     text-align: center;
-    line-height: 1.75rem; // было 24px
+    line-height: 1.75rem; 
   }
   
   .p {
     font-family: 'Ubuntu-L';
     color: $black;
-    font-size: 0.875rem; //было 18, исправила на 14 как в макете и пересчитала в rem
-    line-height: 1.5rem; //было 24
+    font-size: 0.875rem; 
+    line-height: 1.5rem;
     text-align: center;
-    margin: 0.9375rem; //было 15
+    margin: 0.9375rem; 
   }
   .best-list {
     display: flex;
+    
+   @media screen and (max-width: 480px) {
+      .best-list {
+        flex-direction: column;
+      }
+    }
+    
   }
   
   .best-list__item {
@@ -65,16 +69,16 @@
   }
 
   .meat-icon {
-    height: 5.5625rem; //было 89
-    width: 6.0625rem; //было 97
+    height: 5.5625rem; 
+    width: 6.0625rem; 
     
   }
   .hand-icon {
-    height: 5.3125rem; //было 85
-    width: 4.5625rem; //было 73
+    height: 5.3125rem; 
+    width: 4.5625rem; 
   }
 
   .leaf-icon {
-    height: 4.6875rem; //было 75
-    width: 5.5rem; //было 88
+    height: 4.6875rem; 
+    width: 5.5rem; 
   }

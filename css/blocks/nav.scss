@@ -8,7 +8,6 @@
   .header {
     display: flex;
     position: relative;
-    //padding-top: 12px;
     padding-top: 0.75rem;
     width: 95%;
     margin: 0 auto;   
@@ -30,17 +29,13 @@
     text-decoration: none;
     color: $white;
     line-height: 2.5rem;
-    //line-height: 40px;
     font-family: 'Ubuntu-R', sans-serif;
     text-transform: uppercase;
     font-size: 0.8125rem;
-    //font-size: 13px;
     
     &::after {
     content: "•";
     margin-right: 0.9375rem;
     margin-left: 0.9375rem;
-    //margin-right: 15px;
-    //margin-left: 15px;
     }
   }
