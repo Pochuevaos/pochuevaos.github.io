@@ -28,7 +28,7 @@
     right: 0;
     bottom: 0;
     padding: 0.875rem 0;
-    opacity: 50%;
+   
    
 }
 
@@ -48,7 +48,7 @@
 
   .footer__col {
     width: 50%;
-    text-align: left;
+     
   }
 
   @media screen and (max-width: 480px) {
@@ -82,19 +82,32 @@
     vertical-align: middle;
   }
 
+  .social__link-icon-red{
+    fill: $red;
+    height: 0.6875rem;
+    width: 0.75rem;
+  }
   .footer__col-right {
     width: 50%;
-    text-align: right;
+  
   }
   @media screen and (max-width: 480px) {
     .footer__col-right {
       margin-top: 0.75rem;
+      
     }
   }
 
   .socials {
-    text-align: center;
-    
+    text-align: end;
+
+    @media screen and (min-width: 480px) {
+      .socials {
+        width: 100%;
+        text-align: center;
+
+      }
+    }
   }
 
   
@@ -115,7 +128,13 @@
   fill: #585858;
   filter: grayscale(100%);
   transition: .3s;
+
+  &:hover{
+    fill: $white; }
+ 
 } 
+
+
 
 
   

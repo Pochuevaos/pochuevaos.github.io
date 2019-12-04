@@ -1,3 +1,5 @@
+//-----------team accordeon-----//
+
 .team-accordeon {
 position: absolute;
 top: 0;
@@ -7,8 +9,8 @@ left: 49,5%;
 right: 0;
 height: 100%;
 background: rgba(62, 64, 66, 0.93);
-padding-top: 6.25rem ; //было 100
-padding-left: 6.25rem ; //было 100
+padding-top: 6.25rem ; 
+padding-left: 6.25rem ; 
 width: 50%;
 
 @media screen and (max-width: 768px) {
@@ -21,7 +23,7 @@ width: 50%;
 }
 
 .team__title {
-margin-bottom: 1.875rem; //было 30
+margin-bottom: 1.875rem; 
 }
 
 .team-accordeon__list{
@@ -40,17 +42,17 @@ display: inline-block;
 cursor: pointer;
 font-family: 'Gagalin', Helvetica, sans-serif;
 text-transform: uppercase;
-font-size: 0.875rem; //было 14
+font-size: 0.875rem; 
 display: inline-flex;
 align-items: center;
 color: $white;
-margin-bottom: 1.5625; //было 125
+margin-bottom: 1.5625; 
 &::before {
     content: "";
     display: block;
     width: 1.25rem; // было 20 скорректировала "на глаз" , так, как в макете 10 и 8 px- выглядят слишком маленькими
-    height: 1.125rem; //было 18
-    margin-right: 0.625rem; //было 20 
+    height: 1.125rem; 
+    margin-right: 0.625rem; 
     background: url(../img/btn-up.png);
     background-position: center center;
     background-size: cover;
@@ -72,7 +74,7 @@ color: $yellow;
 .team-accordeon__content {
 display: flex;
 color: $white;
-width: 22.5rem; // was 360 возможно нужно исправить на 360-380
+width: 22.5rem; 
 height: 0;
 overflow: hidden;
 line-height: 1.42;
@@ -88,13 +90,13 @@ transition: height 1s;
 
 .team-accordeon__trigger--active +.team-accordeon__content {
     height: 100%; 
-    margin-bottom: 1.875rem; //was30
+    margin-bottom: 1.875rem; 
 }
 
 .team-accordeon__content-photo {
     margin: 0 auto;
-    width: 6.25rem; //was100
-    height: 6.25rem; //was100
+    width: 6.25rem; 
+    height: 6.25rem; 
     border-radius: 100%;
     padding: 1rem; 
     }
@@ -106,16 +108,16 @@ font-family: 'Ubuntu-L';
 
 .team-accordeon__occupation {
 font-weight: 100;
-margin-bottom: 0.625rem; //was10
-font-size: 0.875rem; //was14
+margin-bottom: 0.625rem; 
+font-size: 0.875rem; 
 font-weight: bold;
-//font-weight: bold; нужно сделать жирным, но сжимается фотка
+font-weight: bold; 
 }
 
 .team-accordeon-info {
-    line-height: 1.5rem; //was 24
-    font-size: 0.875rem; //was 14
-    max-height: 6.1875rem; //was 99
+    line-height: 1.5rem; 
+    font-size: 0.875rem; 
+    max-height: 6.1875rem; 
     overflow: hidden;
     text-overflow: ellipsis;
 }

@@ -51,14 +51,15 @@
   }
   .best-list {
     display: flex;
+    flex-direction: row;
     
    @media screen and (max-width: 480px) {
       .best-list {
         flex-direction: column;
       }
     }
-    
   }
+  
   
   .best-list__item {
     display: flex;

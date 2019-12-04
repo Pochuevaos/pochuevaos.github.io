@@ -149,7 +149,7 @@ img {
     .btn__black {
       margin: 0; } }
 
-/*---------------------------------Первая страница------------------------------------*/
+/*---------------------------------Page1------------------------------------*/
 .section_hero {
   background-image: url(/img/bg1.jpg);
   background-repeat: no-repeat;
@@ -291,7 +291,8 @@ article {
   margin: 0.9375rem; }
 
 .best-list {
-  display: flex; }
+  display: flex;
+  flex-direction: row; }
   @media screen and (max-width: 480px) {
     .best-list .best-list {
       flex-direction: column; } }
@@ -492,6 +493,7 @@ article {
   font-weight: 100;
   margin-bottom: 0.625rem;
   font-size: 0.875rem;
+  font-weight: bold;
   font-weight: bold; }
 
 .team-accordeon-info {
@@ -510,6 +512,14 @@ article {
   width: 100%;
   overflow: hidden;
   position: relative; }
+
+.container__order {
+  margin-top: 10%;
+  margin-bottom: 5%; }
+  @media screen and (max-width: 770px) {
+    .container__order {
+      margin-top: 0%;
+      margin-bottom: 0%; } }
 
 .order__title {
   text-align: center;
@@ -699,8 +709,7 @@ article {
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 0.875rem 0;
-  opacity: 50%; }
+  padding: 0.875rem 0; }
 
 .footer__container {
   display: flex;
@@ -712,8 +721,7 @@ article {
   .footer__container {
     flex-direction: column; } }
 .footer__col {
-  width: 50%;
-  text-align: left; }
+  width: 50%; }
 
 @media screen and (max-width: 480px) {
   .footer__col {
@@ -739,15 +747,23 @@ address {
   display: inline-block;
   vertical-align: middle; }
 
+.social__link-icon-red {
+  fill: #e35028;
+  height: 0.6875rem;
+  width: 0.75rem; }
+
 .footer__col-right {
-  width: 50%;
-  text-align: right; }
+  width: 50%; }
 
 @media screen and (max-width: 480px) {
   .footer__col-right {
     margin-top: 0.75rem; } }
 .socials {
-  text-align: center; }
+  text-align: end; }
+  @media screen and (min-width: 480px) {
+    .socials .socials {
+      width: 100%;
+      text-align: center; } }
 
 .social__item {
   display: inline-block;
@@ -763,6 +779,8 @@ address {
   fill: #585858;
   filter: grayscale(100%);
   transition: .3s; }
+  .social__link-icon:hover {
+    fill: #fff; }
 
 /*# sourceMappingURL=main.css.map */
 

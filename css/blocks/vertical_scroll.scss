@@ -3,8 +3,8 @@
 .scroll {
     position: fixed;
     color: rgb(255, 255, 255);
-    right: 4.375rem; //was70
-    top: 6.25rem; //was1000
+    right: 4.375rem; 
+    top: 6.25rem; 
     z-index: 10;
  }
  .scroll__list {
@@ -15,18 +15,18 @@
     
  }
  .scroll__item {
-    width: 1rem;  //was16
-    height: 1rem; //was16
+    width: 1rem;  
+    height: 1rem; 
     border-radius: 50%;
     border: 1px solid transparent;
-    margin-top: 0.25rem; //was4
+    margin-top: 0.25rem; 
     position: relative;
  }
  .scroll__item:before {
     content: '';
     display: inline-block;
-    width: 0.375rem; //was6 
-    height: 0.375rem; //was6
+    width: 0.375rem; 
+    height: 0.375rem; 
     background: #fff;
     border-radius: 50%;
     position: absolute;
