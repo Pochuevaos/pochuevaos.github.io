@@ -27,7 +27,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    padding: 0.875rem 0;
+    padding: 0.875rem 6%;
    
    
 }
@@ -101,15 +101,15 @@
   .socials {
     text-align: end;
 
-    @media screen and (min-width: 480px) {
+  }
+
+    @media screen and (max-width: 480px) {
       .socials {
         width: 100%;
         text-align: center;
 
       }
     }
-  }
-
   
 .social__item {
     display: inline-block;
