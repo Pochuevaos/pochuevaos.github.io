@@ -21,7 +21,7 @@
     flex-direction: column;
     align-items: center;
     flex-shrink: 3;
-    padding: 0 30%;
+    //padding: 0 30%;
     }
 
   }
@@ -41,8 +41,26 @@
       position: relative;
     flex: 1;
     display: block;
-    
+    //width:220%
+ 
   } 
+    
+  @media screen and (max-width: 768px) {
+    .burger_img  {
+      width:50%
+
+    }
+  }
+  
+
+
+
+  @media screen and (max-width: 480px) {
+    .burger_img  {
+      width: 80%;
+
+    }
+  }
   
   /*Текст мы делаем натуральные бургеры*/
   
@@ -58,6 +76,7 @@
 
     @media screen and (max-width: 768px) {
       text-align: center;
+      font-size: 4rem;
     }
   }
   
@@ -111,6 +130,7 @@
     display: flex;
     flex-direction: column;
     margin-top: 1.4375rem;
+    margin-left: 1.875rem;
   }
   
   .burg {

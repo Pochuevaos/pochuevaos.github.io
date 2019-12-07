@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$white".
-        on line 44 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\order-form.scss
+        on line 55 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\order-form.scss
 
-39:     
-40: }
-41: 
-42: 
-43: .form__label-title {
-44:     color: $white;
-45:     font-family: 'Ubuntu-L',sans-serif;
-46:     font-size: 0.875rem; 
-47:     padding-bottom: 0.4375rem;
-48:   
-49:     
+50:     
+51: }
+52: 
+53: 
+54: .form__label-title {
+55:     color: $white;
+56:     font-family: 'Ubuntu-L',sans-serif;
+57:     font-size: 0.875rem; 
+58:     padding-bottom: 0.4375rem;
+59:   
+60:     
 
 Backtrace:
-C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\order-form.scss:44
+C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\order-form.scss:55
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -62,4 +62,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 44 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\order-form.scss\A \A 39:     \A 40: }\A 41: \A 42: \A 43: .form__label-title {\A 44:     color: $white;\A 45:     font-family: 'Ubuntu-L',sans-serif;\A 46:     font-size: 0.875rem; \A 47:     padding-bottom: 0.4375rem;\A 48:   \A 49:     "; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 55 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\order-form.scss\A \A 50:     \A 51: }\A 52: \A 53: \A 54: .form__label-title {\A 55:     color: $white;\A 56:     font-family: 'Ubuntu-L',sans-serif;\A 57:     font-size: 0.875rem; \A 58:     padding-bottom: 0.4375rem;\A 59:   \A 60:     "; }

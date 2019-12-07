@@ -26,6 +26,14 @@
     max-width: 100%;
     transition: .7s;
   }
+
+  @media screen and (max-width: 768px) {
+    .menu__list {
+      left: 0%;
+
+    }
+  }
+
   .menu__item {
     overflow: hidden;
     position: relative;

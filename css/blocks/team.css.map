@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAAA,KAAM;EACF,UAAU,EAAE,uBAAuB;EACnC,mBAAmB,EAAE,aAAa;EAClC,eAAe,EAAE,KAAK;EACtB,iBAAiB,EAAE,SAAS;EAC5B,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,SAAS",
+"mappings": "AAAA,KAAM;EACF,UAAU,EAAE,uBAAuB;EACnC,mBAAmB,EAAE,aAAa;EAClC,eAAe,EAAE,KAAK;EACtB,iBAAiB,EAAE,SAAS;EAC5B,QAAQ,EAAE,QAAQ",
 "sources": ["team.scss"],
 "names": [],
 "file": "team.css"

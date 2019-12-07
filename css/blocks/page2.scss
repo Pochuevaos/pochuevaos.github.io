@@ -5,21 +5,15 @@
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
-    width: 100%;
-    position: relative;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-    overflow: auto;   
+       
   }
   
   .container__best {
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     
   }
   
@@ -29,7 +23,8 @@
     font-size: 3.4375rem;
     line-height: 5.3125rem;
     font-weight: 100;
-    margin-top: 0;
+    //margin-top: 0;
+    margin: 2rem 0;
   }
   
   @media screen and (max-width: 480px) {
@@ -74,6 +69,9 @@
   @media screen and (max-width: 480px) {
     .p {
     text-align: left;
+    margin: 0;
+    padding-top: 8%;
+    padding-bottom: 8%;
     }
   }
 
@@ -86,8 +84,7 @@
       .best-list {
         display: flex;
         flex-direction: column;
-        height: 100vh;
-        width: 100vh;
+ 
       }
     }
   
@@ -103,9 +100,10 @@
   @media screen and (max-width: 480px) {
     .best-list__item{
       display: flex;
+      width: 100%;
       flex-direction: row;
-      height: 100vh;
-      width: 100vh;
+     
+  
     }
   }
 
@@ -113,11 +111,11 @@
     .best-list__desc {
       display: flex;
       flex-direction: column;
-      height: 100%;
-      width: 100%;
+    
       align-items: flex-start;
       text-align: right;
-      margin-right: 30%;
+      width: 60%;
+ 
     }
   }
 
@@ -139,9 +137,10 @@
 
   @media screen and (max-width: 480px) {
   .meat-icon, .hand-icon, .leaf-icon {
-    padding-bottom: 70px;
-    margin-left: 10px;
-    margin-right: 10px;
-    height: 100%;
+
+    width: 25%;
+    margin-right: 15px;
+  
+ 
   }
   }

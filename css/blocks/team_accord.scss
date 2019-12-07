@@ -23,7 +23,10 @@ width: 50%;
 }
 
 .team__title {
-margin-bottom: 1.875rem; 
+//margin-bottom: 1.875rem;
+font-size: 3.125rem;
+font-weight: 400;
+line-height: 60.11px; 
 }
 
 .team-accordeon__list{
@@ -42,17 +45,21 @@ display: inline-block;
 cursor: pointer;
 font-family: 'Gagalin', Helvetica, sans-serif;
 text-transform: uppercase;
-font-size: 0.875rem; 
+//font-size: 0.875rem; 
 display: inline-flex;
 align-items: center;
 color: $white;
-margin-bottom: 1.5625; 
+font-size: 1.5625rem;
+font-weight: 400;
+line-height: 29.13px;
+//margin-bottom: 1.5625; 
 &::before {
     content: "";
     display: block;
     width: 1.25rem; // было 20 скорректировала "на глаз" , так, как в макете 10 и 8 px- выглядят слишком маленькими
     height: 1.125rem; 
-    margin-right: 0.625rem; 
+    margin-right: 0.625rem;
+    margin-left: -1.25rem; 
     background: url(../img/btn-up.png);
     background-position: center center;
     background-size: cover;
@@ -90,7 +97,7 @@ transition: height 1s;
 
 .team-accordeon__trigger--active +.team-accordeon__content {
     height: 100%; 
-    margin-bottom: 1.875rem; 
+    //margin-bottom: 1.875rem; 
 }
 
 .team-accordeon__content-photo {
@@ -98,8 +105,9 @@ transition: height 1s;
     width: 6.25rem; 
     height: 6.25rem; 
     border-radius: 100%;
-    padding: 1rem; 
-    }
+    //margin-bottom: 1.125rem;
+    margin-right: 1.3125rem;
+}
     
 .team-accordeon__description {
 font-family: 'Ubuntu-L';
@@ -111,7 +119,7 @@ font-weight: 100;
 margin-bottom: 0.625rem; 
 font-size: 0.875rem; 
 font-weight: bold;
-font-weight: bold; 
+
 }
 
 .team-accordeon-info {
@@ -120,4 +128,5 @@ font-weight: bold;
     max-height: 6.1875rem; 
     overflow: hidden;
     text-overflow: ellipsis;
+       font-weight: 300;
 }

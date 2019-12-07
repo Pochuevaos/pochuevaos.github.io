@@ -130,7 +130,7 @@ img {
 
 /*------Buttons---*/
 .btn {
-  padding: 0.8125rem 0.9375rem;
+  padding: 0.8125rem 1.5rem;
   background-color: #e35028;
   border-radius: 4px;
   border: 0;
@@ -169,8 +169,7 @@ img {
     .hero-content {
       flex-direction: column;
       align-items: center;
-      flex-shrink: 3;
-      padding: 0 30%; } }
+      flex-shrink: 3; } }
 
 .logo-icon {
   height: 4.3125rem;
@@ -182,6 +181,12 @@ img {
   flex: 1;
   display: block; }
 
+@media screen and (max-width: 768px) {
+  .burger_img {
+    width: 50%; } }
+@media screen and (max-width: 480px) {
+  .burger_img {
+    width: 80%; } }
 /*Текст мы делаем натуральные бургеры*/
 .title {
   color: #f9b43b;
@@ -193,7 +198,8 @@ img {
   margin: 0; }
   @media screen and (max-width: 768px) {
     .title {
-      text-align: center; } }
+      text-align: center;
+      font-size: 4rem; } }
 
 .description {
   display: flex;
@@ -231,7 +237,8 @@ img {
 .burgnav {
   display: flex;
   flex-direction: column;
-  margin-top: 1.4375rem; }
+  margin-top: 1.4375rem;
+  margin-left: 1.875rem; }
 
 .burg {
   width: 1.5rem;
@@ -252,21 +259,14 @@ img {
   background: url(../img/bg2.jpg);
   background-position: center center;
   background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  width: 100%;
-  position: relative;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 30%;
+  background-repeat: no-repeat; }
+
+.container__best {
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: auto; }
-
-.container__best {
-  height: 100%; }
+  flex-direction: column; }
 
 h1 {
   color: #2f3234;
@@ -274,7 +274,7 @@ h1 {
   font-size: 3.4375rem;
   line-height: 5.3125rem;
   font-weight: 100;
-  margin-top: 0; }
+  margin: 2rem 0; }
 
 @media screen and (max-width: 480px) {
   .h2 {
@@ -307,16 +307,17 @@ article {
 
 @media screen and (max-width: 480px) {
   .p {
-    text-align: left; } }
+    text-align: left;
+    margin: 0;
+    padding-top: 8%;
+    padding-bottom: 8%; } }
 .best-list {
   display: flex; }
 
 @media screen and (max-width: 480px) {
   .best-list {
     display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 100vh; } }
+    flex-direction: column; } }
 .best-list__item {
   display: flex;
   flex-direction: column;
@@ -326,18 +327,15 @@ article {
 @media screen and (max-width: 480px) {
   .best-list__item {
     display: flex;
-    flex-direction: row;
-    height: 100vh;
-    width: 100vh; } }
+    width: 100%;
+    flex-direction: row; } }
 @media screen and (max-width: 480px) {
   .best-list__desc {
     display: flex;
     flex-direction: column;
-    height: 100%;
-    width: 100%;
     align-items: flex-start;
     text-align: right;
-    margin-right: 30%; } }
+    width: 60%; } }
 .meat-icon {
   height: 5.5625rem;
   width: 6.0625rem; }
@@ -352,10 +350,8 @@ article {
 
 @media screen and (max-width: 480px) {
   .meat-icon, .hand-icon, .leaf-icon {
-    padding-bottom: 70px;
-    margin-left: 10px;
-    margin-right: 10px;
-    height: 100%; } }
+    width: 25%;
+    margin-right: 15px; } }
 /*---------------------------------Rewiews-----------------------------------*/
 .reviews__list {
   display: flex;
@@ -367,8 +363,7 @@ article {
   height: 100vh; }
 
 .section__title {
-  text-align: center;
-  flex: 1; }
+  text-align: center; }
 
 .reviews {
   height: 100%; }
@@ -444,8 +439,7 @@ article {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
-  height: 53.125rem; }
+  position: relative; }
 
 .team-accordeon {
   position: absolute;
@@ -466,7 +460,9 @@ article {
       text-align: center; } }
 
 .team__title {
-  margin-bottom: 1.875rem; }
+  font-size: 3.125rem;
+  font-weight: 400;
+  line-height: 60.11px; }
 
 .team-accordeon__list {
   display: flex;
@@ -479,17 +475,19 @@ article {
   cursor: pointer;
   font-family: 'Gagalin', Helvetica, sans-serif;
   text-transform: uppercase;
-  font-size: 0.875rem;
   display: inline-flex;
   align-items: center;
   color: #fff;
-  margin-bottom: 1.5625; }
+  font-size: 1.5625rem;
+  font-weight: 400;
+  line-height: 29.13px; }
   .team-accordeon__trigger::before {
     content: "";
     display: block;
     width: 1.25rem;
     height: 1.125rem;
     margin-right: 0.625rem;
+    margin-left: -1.25rem;
     background: url(../img/btn-up.png);
     background-position: center center;
     background-size: cover;
@@ -517,15 +515,14 @@ article {
       margin: 0 auto; } }
 
 .team-accordeon__trigger--active + .team-accordeon__content {
-  height: 100%;
-  margin-bottom: 1.875rem; }
+  height: 100%; }
 
 .team-accordeon__content-photo {
   margin: 0 auto;
   width: 6.25rem;
   height: 6.25rem;
   border-radius: 100%;
-  padding: 1rem; }
+  margin-right: 1.3125rem; }
 
 .team-accordeon__description {
   font-family: 'Ubuntu-L'; }
@@ -534,7 +531,6 @@ article {
   font-weight: 100;
   margin-bottom: 0.625rem;
   font-size: 0.875rem;
-  font-weight: bold;
   font-weight: bold; }
 
 .team-accordeon-info {
@@ -542,7 +538,8 @@ article {
   font-size: 0.875rem;
   max-height: 6.1875rem;
   overflow: hidden;
-  text-overflow: ellipsis; }
+  text-overflow: ellipsis;
+  font-weight: 300; }
 
 .order {
   background: url(../img/bg-order.jpg);
@@ -554,6 +551,12 @@ article {
   overflow: hidden;
   position: relative; }
 
+@media screen and (max-width: 480px) {
+  .question__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center; } }
+
 .container__order {
   margin-top: 10%;
   margin-bottom: 5%; }
@@ -563,14 +566,15 @@ article {
       margin-bottom: 0%; } }
 
 .order__title {
-  text-align: center;
-  margin: 2%; }
+  display: flex;
+  justify-content: center;
+  margin: 5%; }
   @media screen and (max-width: 480px) {
     .order__title {
       line-height: 100%;
       font-size: 50px;
       padding: 0 2%;
-      margin: 2%; } }
+      margin: 5%; } }
 
 .form__label-title {
   color: #fff;
@@ -585,6 +589,8 @@ article {
   outline: none;
   box-sizing: border-box;
   width: 100%; }
+  .form__input:focus {
+    border: 2px solid #f9b43b; }
 
 @media screen and (min-width: 768px) {
   .form {
@@ -602,15 +608,19 @@ article {
 
 .form__label {
   flex: 1;
-  margin-left: 1.25rem; }
+  margin-right: 1.25rem; }
+  .form__label:last-child {
+    margin-right: 0; }
   .form__label:first-child {
     margin-left: o; }
+
+.form__label-radio {
+  margin-right: 1.25rem; }
 
 .form__textarea {
   min-height: 6.6875rem; }
 
 .form__button {
-  margin-left: 1.25rem;
   margin-top: 0%; }
 
 .btn__black2 {
@@ -619,15 +629,13 @@ article {
 .form__label-checkbox {
   padding: 0%; }
 
-.form__checkbox {
-  color: #e35028; }
-
 .form__order {
   display: flex; }
   @media screen and (max-width: 768px) {
     .form__order {
       flex-direction: column;
-      padding: 0;
+      padding-left: 16%;
+      padding-right: 16%;
       height: 100%; } }
   @media screen and (max-width: 480px) {
     .form__order {
@@ -639,6 +647,93 @@ article {
     width: 100%;
     float: none;
     margin-left: 0; } }
+
+.form--col--right {
+  margin-left: 1.25rem; }
+  @media screen and (max-width: 768px) {
+    .form--col--right {
+      margin-left: 0; } }
+
+input[type="checkbox"]:checked,
+input[type="checkbox"]:not(:checked),
+input[type="radio"]:checked,
+input[type="radio"]:not(:checked) {
+  position: absolute;
+  left: -9999px; }
+
+input[type="checkbox"]:checked + label,
+input[type="checkbox"]:not(:checked) + label,
+input[type="radio"]:checked + label,
+input[type="radio"]:not(:checked) + label {
+  display: inline-block;
+  position: relative;
+  padding-left: 28px;
+  line-height: 20px;
+  cursor: pointer; }
+
+input[type="checkbox"]:checked + label:before,
+input[type="checkbox"]:not(:checked) + label:before,
+input[type="radio"]:checked + label:before,
+input[type="radio"]:not(:checked) + label:before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 18px;
+  height: 18px;
+  border: 1px solid #dddddd;
+  background-color: #ffffff; }
+
+input[type="checkbox"]:checked + label:before,
+input[type="checkbox"]:not(:checked) + label:before {
+  border-radius: 2px; }
+
+input[type="radio"]:checked + label:before,
+input[type="radio"]:not(:checked) + label:before {
+  border-radius: 100%; }
+
+input[type="checkbox"]:checked + label:after,
+input[type="checkbox"]:not(:checked) + label:after,
+input[type="radio"]:checked + label:after,
+input[type="radio"]:not(:checked) + label:after {
+  content: "";
+  position: absolute;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
+
+input[type="checkbox"]:checked + label:after,
+input[type="checkbox"]:not(:checked) + label:after {
+  left: 3px;
+  top: 4px;
+  width: 10px;
+  height: 5px;
+  border-radius: 1px;
+  border-left: 4px solid #e35028;
+  border-bottom: 4px solid #e35028;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+input[type="radio"]:checked + label:after,
+input[type="radio"]:not(:checked) + label:after {
+  left: 5px;
+  top: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #e35028; }
+
+input[type="checkbox"]:not(:checked) + label:after,
+input[type="radio"]:not(:checked) + label:after {
+  opacity: 0; }
+
+input[type="checkbox"]:checked + label:after,
+input[type="radio"]:checked + label:after {
+  opacity: 1; }
 
 /*------Menu---*/
 .menu {
@@ -665,6 +760,9 @@ article {
   max-width: 100%;
   transition: .7s; }
 
+@media screen and (max-width: 768px) {
+  .menu__list {
+    left: 0%; } }
 .menu__item {
   overflow: hidden;
   position: relative;

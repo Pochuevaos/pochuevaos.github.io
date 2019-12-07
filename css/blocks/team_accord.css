@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$white".
-        on line 48 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\team_accord.scss
+        on line 51 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\team_accord.scss
 
-43: font-family: 'Gagalin', Helvetica, sans-serif;
-44: text-transform: uppercase;
-45: font-size: 0.875rem; 
-46: display: inline-flex;
-47: align-items: center;
-48: color: $white;
-49: margin-bottom: 1.5625; 
-50: &::before {
-51:     content: "";
-52:     display: block;
-53:     width: 1.25rem; // было 20 скорректировала "на глаз" , так, как в макете 10 и 8 px- выглядят слишком маленькими
+46: font-family: 'Gagalin', Helvetica, sans-serif;
+47: text-transform: uppercase;
+48: //font-size: 0.875rem; 
+49: display: inline-flex;
+50: align-items: center;
+51: color: $white;
+52: font-size: 1.5625rem;
+53: font-weight: 400;
+54: line-height: 29.13px;
+55: //margin-bottom: 1.5625; 
+56: &::before {
 
 Backtrace:
-C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\team_accord.scss:48
+C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\team_accord.scss:51
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -62,4 +62,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 48 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\team_accord.scss\A \A 43: font-family: 'Gagalin', Helvetica, sans-serif;\A 44: text-transform: uppercase;\A 45: font-size: 0.875rem; \A 46: display: inline-flex;\A 47: align-items: center;\A 48: color: $white;\A 49: margin-bottom: 1.5625; \A 50: &::before {\A 51:     content: \"\";\A 52:     display: block;\A 53:     width: 1.25rem; // было 20 скорректировала \"на глаз\" , так, как в макете 10 и 8 px- выглядят слишком маленькими"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 51 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\team_accord.scss\A \A 46: font-family: 'Gagalin', Helvetica, sans-serif;\A 47: text-transform: uppercase;\A 48: //font-size: 0.875rem; \A 49: display: inline-flex;\A 50: align-items: center;\A 51: color: $white;\A 52: font-size: 1.5625rem;\A 53: font-weight: 400;\A 54: line-height: 29.13px;\A 55: //margin-bottom: 1.5625; \A 56: &::before {"; }
