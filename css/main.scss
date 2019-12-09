@@ -23,7 +23,7 @@ html {
   font-size: 16px;
 
   @include tablets {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   @include phones {
@@ -58,7 +58,15 @@ p {
   margin: 0;
 }
 
-img {
+
+@media screen and (max-width: 480px) {
+ img {
+  max-width: 100%;
+}
+
+}
+
+.burger {
   width: 100%;
 }
 
@@ -90,9 +98,16 @@ $black: #2f3234;
 @import "blocks/team.scss";
 //team-accordeon
 @import "blocks/team_accord.scss";
+//team-order
 @import "blocks/order-form.scss";
+//team-menu
 @import "blocks/menu.scss";
+//team-contacts
 @import "blocks/contacts.scss";
+//team-slider
+@import "blocks/slider.scss";
+//full screen menu
+@import "blocks/full.scr.menu.scss";
 
 
 

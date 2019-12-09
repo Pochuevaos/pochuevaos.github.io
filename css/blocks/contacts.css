@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$white".
-        on line 70 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\contacts.scss
+        on line 74 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\contacts.scss
 
-65:   .footer__text {
-66:     font-family: 'Ubuntu-L';
-67:     font-weight: 300;
-68:     font-size: 0.875rem;
-69:     line-height: 1.5rem;
-70:     color: $white;
-71:   }
-72: 
-73: 
-74: .footer__phone {
-75:     font-family: 'Ubuntu-L';
+69:   .footer__text {
+70:     font-family: 'Ubuntu-L';
+71:     font-weight: 300;
+72:     font-size: 0.875rem;
+73:     line-height: 1.5rem;
+74:     color: $white;
+75:   }
+76: 
+77: 
+78: .footer__phone {
+79:     font-family: 'Ubuntu-L';
 
 Backtrace:
-C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\contacts.scss:70
+C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\contacts.scss:74
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -62,4 +62,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 70 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\contacts.scss\A \A 65:   .footer__text {\A 66:     font-family: 'Ubuntu-L';\A 67:     font-weight: 300;\A 68:     font-size: 0.875rem;\A 69:     line-height: 1.5rem;\A 70:     color: $white;\A 71:   }\A 72: \A 73: \A 74: .footer__phone {\A 75:     font-family: 'Ubuntu-L';"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 74 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\contacts.scss\A \A 69:   .footer__text {\A 70:     font-family: 'Ubuntu-L';\A 71:     font-weight: 300;\A 72:     font-size: 0.875rem;\A 73:     line-height: 1.5rem;\A 74:     color: $white;\A 75:   }\A 76: \A 77: \A 78: .footer__phone {\A 79:     font-family: 'Ubuntu-L';"; }

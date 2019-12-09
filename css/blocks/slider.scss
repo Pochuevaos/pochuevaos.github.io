@@ -1,0 +1,197 @@
+.slider {
+background: rgb(249,180,59);
+background: linear-gradient(0deg, rgba(249,180,59,1) 0%, rgba(238,141,56,1) 35%, rgba(248,179,59,1) 100%);
+}
+
+.slider__container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+.slider__content {
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    .slider__content {
+        flex-direction: column;
+        
+    }
+}
+
+.slider__content-right {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    padding-top: 5%;
+}
+
+@media screen and (max-width: 768px) {
+    .slider__content-right {
+        align-items: center;
+        text-align: center;
+        padding-top: 0%;
+    }
+}
+
+.slider__content-left {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 480px) {
+    .slider__content-left {
+             
+  
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .slider__content-left {
+        flex-direction: row;
+    }
+}
+
+.slider__scroll {
+    margin-left: 2%;
+    margin-right: 4%;
+    //transform: rotate(90deg);    
+}    
+
+.slider__scroll__left {
+    transform: rotate(90deg);   
+}
+
+.slider__scroll__right {
+    transform: rotate(-90deg);  
+
+}
+
+.slider_title {
+    color: $white;
+    font-weight: 400;
+    line-height: 3.9375rem;
+    text-align: start;
+    padding-right: 5%;
+    padding-top: 0%;   
+}
+
+
+@media screen and (max-width: 768px) {
+    .slider_title {
+      margin-top: 0%;
+      font-size: 3.125rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .slider_title {
+      padding-right: 0;
+      text-align: center;
+    }
+}
+
+
+.slider__content-info{
+color: $white;
+font-family: 'Ubuntu-L';
+font-size: 0.875rem;
+font-weight: 300;
+line-height: 1.4375rem;
+
+}
+
+.slider__content-price {
+    margin-top: 10%;
+   
+}
+
+@media screen and (max-width: 768px) {
+    .slider__content-price {
+        display: flex;
+
+    }
+}
+
+.price {
+    font-family: Gagalin;
+    color: $red;
+    font-weight: 400;
+    line-height: 1.75rem;
+    letter-spacing: -1.79px;
+    
+}
+
+.order__btn {
+  margin-left: 5%;  
+}
+
+//состав
+
+.composition__block {
+width: 5.625rem;
+height: 5.625rem;
+background-color: #f08d35;
+border-radius: 0.25rem;
+padding: 2%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+
+.composition-icon {
+width: 2.875rem;
+height: 2.75rem;
+fill: $white;
+}
+
+.composition__text {
+color: $white;
+font-family: Gagalin;
+font-size: 14px;
+font-weight: 400;
+line-height: 28.11px;
+}
+
+//kkal
+.kkal__block {
+    //height: 4.375rem;
+    width: 4.375rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+
+.kkal-icon {
+width: 3.75rem;
+height: 3.75rem;
+opacity: 0.5;
+position: relative;
+}
+
+.kkal__text {
+opacity: 0.5;
+color: $white;
+font-family: Gagalin;
+font-size: 0.875rem;
+font-weight: 400;
+line-height: 1.5rem;
+}
+
+.kkal__number {
+    position: absolute;
+    padding-top: 1.5625rem;
+}
+
+
+ 
+
+
+

@@ -47,7 +47,7 @@
     
   @media screen and (max-width: 768px) {
     .burger_img  {
-      width:50%
+      // width:50%  //убрала, тк при разрешении 768 на 1024 видно, на моем мониторе нужно ставить
 
     }
   }
@@ -76,7 +76,7 @@
 
     @media screen and (max-width: 768px) {
       text-align: center;
-      font-size: 4rem;
+      //font-size: 4rem;  // 768[1024 видно, на моем мониторе нужно оставлять
     }
   }
   
