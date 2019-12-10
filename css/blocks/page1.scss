@@ -131,6 +131,7 @@
     flex-direction: column;
     margin-top: 1.4375rem;
     margin-left: 1.875rem;
+    margin-right: 4%;
   }
   
   .burg {
@@ -143,7 +144,7 @@
     border-radius: 0.375rem;
     
       }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 769px) {
     .burgnav  {
           display: none;;
         }

@@ -39,6 +39,7 @@ background: linear-gradient(0deg, rgba(249,180,59,1) 0%, rgba(238,141,56,1) 35%,
 .slider__content-left {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 @media screen and (max-width: 480px) {
@@ -84,13 +85,25 @@ background: linear-gradient(0deg, rgba(249,180,59,1) 0%, rgba(238,141,56,1) 35%,
     .slider_title {
       margin-top: 0%;
       font-size: 3.125rem;
+      padding-left: 30%;
+      padding-right: 30%;
+      text-align: center;
+
+
     }
 }
 
 @media screen and (max-width: 480px) {
     .slider_title {
-      padding-right: 0;
+      margin-top: 0%;
+      font-size: 3.125rem;
+      //width: 226px;
+      line-height: 52.64px;
+      align-items: center;
       text-align: center;
+      padding-left: 2%;
+      padding-right: 2%;
+      //height: 89px;
     }
 }
 
@@ -136,13 +149,49 @@ width: 5.625rem;
 height: 5.625rem;
 background-color: #f08d35;
 border-radius: 0.25rem;
-padding: 2%;
+//padding: 2%;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+position: absolute;
 }
 
+
+@media screen and (min-width: 900px) {
+    .composition__block {
+        top: 70px;
+        right: 530px;
+        left: 80px;
+       
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .composition__block {
+        //position: absolute;
+        top: 120px;
+        right: 530px;
+        left: 150px;
+        //bottom: 818px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .composition__block {
+        //position: absolute;
+        top: 50px;
+        right: 20px;
+        left: 16px;
+        //bottom: 660px;
+    }
+}
+
+.slider__container {
+    position: relative;
+}
 
 .composition-icon {
 width: 2.875rem;
@@ -166,8 +215,37 @@ line-height: 28.11px;
     flex-direction: column;
     text-align: center;
     align-items: center;
+    position: absolute;
+    
 }
 
+@media screen and (min-width: 900px) {
+    .kkal__block{
+        top: 470px;
+        left: 86px;
+       
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .kkal__block {
+        top: 112px;
+        right: 150px;
+        left: 600px;
+        //bottom: 660px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .kkal__block {
+        //position: absolute;
+        top: 50px;
+        right: 20px;
+        left: 415px;
+        //bottom: 660px;
+    }
+}
 
 .kkal-icon {
 width: 3.75rem;
@@ -188,6 +266,19 @@ line-height: 1.5rem;
 .kkal__number {
     position: absolute;
     padding-top: 1.5625rem;
+}
+
+.black__burger_img {
+    //position: relative;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .black__burger_img {
+       margin-bottom: 0;
+       padding-top: 60px;
+       text-align: center;
+    }
 }
 
 

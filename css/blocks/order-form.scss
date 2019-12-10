@@ -22,10 +22,10 @@
 .container__order{
  margin-top: 10%;
  margin-bottom: 5%;
- display: flex;
- flex-direction: column;
+ //display: flex;
+ //flex-direction: column;
  align-items: center;
- padding-top: 10%;
+ //padding-top: 10%;
  
  @media screen and (max-width: 768px) {
     margin-top: 0%;
@@ -83,13 +83,17 @@
 }
 
 .form {
-    @media screen and (min-width: 768px) {
-    flex-direction: row;
+    display: flex;
+}
+
+.form {
+    @media screen and (max-width: 768px) {
+    flex-direction: column;
 }
 
 }
 .form__col {
-    flex: 1;
+    //flex: 1;
 }
 
 .form__row {
@@ -139,6 +143,7 @@
 
 .form__order {
     display: flex;
+    flex-direction: row;
 
     @media screen and (max-width: 768px) {
         flex-direction: column;
@@ -164,8 +169,13 @@
 
 }
 
+.form--col--left {
+    flex: 1;
+}
+
 .form--col--right {
     margin-left: 1.25rem;
+    flex: 1;
 
     @media screen and (max-width: 768px) {
         margin-left: 0;

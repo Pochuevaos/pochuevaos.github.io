@@ -13,7 +13,7 @@
     align-items: start;
     justify-content: space-between;
     z-index: 10000;
-    //opacity: 0;
+    opacity: 0;
    
 }
 
@@ -59,9 +59,9 @@
     position: absolute;
     left: 0.9375rem;
     content: ' ';
-    height: 1.0625rem;
-    width: 0.1875rem;
-    border-radius: 0.1875rem;
+    height: 17px;
+    width: 3px;
+    border-radius: 3px;
     background-color: $white;
     }
     .fullscreen-menu__close:before {

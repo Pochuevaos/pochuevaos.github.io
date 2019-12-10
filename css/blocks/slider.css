@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$white".
-        on line 74 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\slider.scss
+        on line 75 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\slider.scss
 
-69:     transform: rotate(-90deg);  
-70: 
-71: }
-72: 
-73: .slider_title {
-74:     color: $white;
-75:     font-weight: 400;
-76:     line-height: 3.9375rem;
-77:     text-align: start;
-78:     padding-right: 5%;
-79:     padding-top: 0%;   
+70:     transform: rotate(-90deg);  
+71: 
+72: }
+73: 
+74: .slider_title {
+75:     color: $white;
+76:     font-weight: 400;
+77:     line-height: 3.9375rem;
+78:     text-align: start;
+79:     padding-right: 5%;
+80:     padding-top: 0%;   
 
 Backtrace:
-C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\slider.scss:74
+C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\slider.scss:75
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -62,4 +62,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 74 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\slider.scss\A \A 69:     transform: rotate(-90deg);  \A 70: \A 71: }\A 72: \A 73: .slider_title {\A 74:     color: $white;\A 75:     font-weight: 400;\A 76:     line-height: 3.9375rem;\A 77:     text-align: start;\A 78:     padding-right: 5%;\A 79:     padding-top: 0%;   "; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 75 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\slider.scss\A \A 70:     transform: rotate(-90deg);  \A 71: \A 72: }\A 73: \A 74: .slider_title {\A 75:     color: $white;\A 76:     font-weight: 400;\A 77:     line-height: 3.9375rem;\A 78:     text-align: start;\A 79:     padding-right: 5%;\A 80:     padding-top: 0%;   "; }
