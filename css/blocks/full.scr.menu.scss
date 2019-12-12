@@ -1,7 +1,7 @@
 
 .fullscreen-menu {
     display: none;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -43,30 +43,3 @@
     color: $white;
 }
 
-//крестик закрытия
-.fullscreen-menu__close {
-    position: absolute;
-    right: 2rem;
-    top: 2rem;
-    width: 2rem;
-    height: 2rem;
-    opacity: 0.3;
-    }
-    .fullscreen-menu__close:hover {
-    opacity: 1;
-    }
-    .fullscreen-menu__close:before, .fullscreen-menu__close:after {
-    position: absolute;
-    left: 0.9375rem;
-    content: ' ';
-    height: 17px;
-    width: 3px;
-    border-radius: 3px;
-    background-color: $white;
-    }
-    .fullscreen-menu__close:before {
-    transform: rotate(45deg);
-    }
-    .fullscreen-menu__close:after {
-    transform: rotate(-45deg);
-    }

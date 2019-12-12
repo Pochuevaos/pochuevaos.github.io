@@ -168,11 +168,11 @@
          <!-----------------------------------page team-------------------------------->
     
                 <section class="section team" id="team">
-                        <div class="team-accordeon">
+                        <div class="team-accordeon"> 
                             <h1 class="title team__title title--yellow">команда</h1>
                             <ul class="team-accordeon__list">
                                 <li class="team-accordeon__item">
-                                    <h class="team-accordeon__trigger team-accordeon__trigger--active">дэниэл редклиф</h>
+                                    <h class="team-accordeon__trigger">дэниэл редклиф</h>
                                     <div class="team-accordeon__content">
                                         <img class="team-accordeon__content-photo"src="../img/Dan.jpg" alt="фото">
                                         <div class="team-accordeon__decription">
@@ -185,7 +185,7 @@
                                 <li class="team-accordeon__item">
                                         <h class="team-accordeon__trigger">дэниэл редклиф</h>
                                         <div class="team-accordeon__content">
-                                            <img class="team-accordeon__content-photo"src="" alt="фото">
+                                            <img class="team-accordeon__content-photo"src="../img/Dan.jpg" alt="фото2">
                                             <div class="team-accordeon__description">
                                                 <div class="team-accordeon__occupation">Оператор</div>
                                                 <div class="team-accordeon-info">С радостью поможет подобрать идеальный бургер и оформить заказ</div>
@@ -196,7 +196,7 @@
                                 <li class="team-accordeon__item">
                                         <h class="team-accordeon__trigger">дэниэл редклиф</h>
                                         <div class="team-accordeon__content">
-                                            <img class="team-accordeon__content-photo"src="" alt="фото">
+                                            <img class="team-accordeon__content-photo"src="../img/Dan.jpg" alt="фото3">
                                             <div class="team-accordeon__description">
                                                 <div class="team-accordeon__occupation">Оператор</div>
                                                 <div class="team-accordeon-info">С радостью поможет подобрать идеальный бургер и оформить заказ</div>
@@ -207,7 +207,7 @@
                                 <li class="team-accordeon__item">
                                         <h class="team-accordeon__trigger">дэниэл редклиф</h>
                                         <div class="team-accordeon__content">
-                                            <img class="team-accordeon__content-photo"src="" alt="фото">
+                                            <img class="team-accordeon__content-photo"src="../img/Dan.jpg" alt="фото3">
                                             <div class="team-accordeon__description">
                                                 <div class="team-accordeon__occupation">Оператор</div>
                                                 <div class="team-accordeon-info">С радостью поможет подобрать идеальный бургер и оформить заказ</div>
@@ -548,7 +548,7 @@
 <section class="section slider" id="slider">
     <div class="slider__container">
         <div class="slider__scroll slider__scroll__left">
-                <svg class="scroll-icon">
+                <svg class="scroll-icon2">
                     <use xlink:href="./sprite.svg#scroll"></use>
                 </svg>
         </div>
@@ -557,6 +557,53 @@
                                     <use xlink:href="./sprite.svg#composition"></use>
                             </svg>
                             <div class="composition__text">состав</div>
+                            <div class="ingredients">
+                                <ul class="ingredients__list">
+                                    <li class="ingredients__item">
+                                            <svg class="composition-icon">
+                                                    <use xlink:href="./sprite.svg#beef"></use>
+                                            </svg>
+                                            <div class="ingredients__text">Говядина</div>
+                                            <div class="ingredients__weight">300г</div>
+                                    </li>
+                                    <li class="ingredients__item">
+                                            <svg class="composition-icon">
+                                                    <use xlink:href="./sprite.svg#buns"></use>
+                                            </svg>
+                                            <div class="ingredients__text">Булочки</div>
+                                            <div class="ingredients__weight">100г</div>
+                                    </li>
+                                    <li class="ingredients__item">
+                                            <svg class="composition-icon">
+                                                    <use xlink:href="./sprite.svg#salad"></use>
+                                            </svg>
+                                            <div class="ingredients__text">Зелень</div>
+                                            <div class="ingredients__weight">70г</div>
+                                    </li>
+                                    <li class="ingredients__item">
+                                            <svg class="composition-icon">
+                                                    <use xlink:href="./sprite.svg#sauce"></use>
+                                            </svg>
+                                            <div class="ingredients__text">Соус</div>
+                                            <div class="ingredients__weight">150г</div>
+                                    </li>
+                                    <li class="ingredients__item">
+                                            <svg class="composition-icon">
+                                                    <use xlink:href="./sprite.svg#cucumber"></use>
+                                            </svg>
+                                            <div class="ingredients__text">Овощи</div>
+                                            <div class="ingredients__weight">200г</div>
+                                    </li>
+                                    <li class="ingredients__item">
+                                            <svg class="composition-icon">
+                                                    <use xlink:href="./sprite.svg#cheese"></use>
+                                            </svg>
+                                            <div class="ingredients__text">Сыр</div>
+                                            <div class="ingredients__weight">80г</div>
+                                    </li>
+                                </ul>
+                                <a href="#" class="ingredients__close"></a>  
+                            </div>
                     </div>     
         <div class="slider__content">
             <div class="slider__content-left">
@@ -595,7 +642,7 @@
         
         
         <div class="slider__scroll slider__scroll__right">
-                <svg class="scroll-icon">
+                <svg class="scroll-icon2">
                     <use xlink:href="./sprite.svg#scroll"></use>
                 </svg>
         </div>
@@ -605,6 +652,9 @@
 </section>
 
 </div>
+
+<!-----------------------------------fullscreen menu-------------------------------->
+
 <div class="fullscreen-menu">
     <div class="fullscreen-menu__logo">
             <svg class="logo-icon">
@@ -657,6 +707,8 @@
 </div>
 
 <script defer src="./js/main.js"></script>
+<script defer src="./js/team-acc.js"></script>
+
 
 </body>
 </html>

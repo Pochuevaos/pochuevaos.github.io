@@ -3,10 +3,10 @@ const fullScreenMenu = document.querySelector(".fullscreen-menu");
 const closeMenu = document.querySelector(".fullscreen-menu__close");
 const menuLink = document.querySelectorAll(".fullscreen-menu__link");
 
-let op = 0.2;  
+let op = 0.2;
 
 let increaseOpacity = function() {
-    setTimeout( function() {
+    setTimeout(function() {
         if (fullScreenMenu.style.opacity < 1) {
             op += 0.2;
             fullScreenMenu.style.opacity = op;
@@ -17,18 +17,17 @@ let increaseOpacity = function() {
 
 
 let decreaseOpacity = function() {
-    setTimeout( function() {
+    setTimeout(function() {
         if (fullScreenMenu.style.opacity > 0) {
             op -= 0.2;
             fullScreenMenu.style.opacity = op;
             decreaseOpacity();
         }
     }, 100);
-    if (op == 0 || op < 0 ) {
+    if (op == 0 || op < 0) {
         fullScreenMenu.style.display = 'none';
-    }     
-} 
-
+    }
+}
 
 hamburger.addEventListener('click', function() {
     fullScreenMenu.style.display = 'block';

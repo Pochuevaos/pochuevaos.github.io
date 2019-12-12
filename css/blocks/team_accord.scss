@@ -91,19 +91,24 @@ width: 22.5rem;
 height: 0;
 overflow: hidden;
 line-height: 1.42;
-transition: height 1s;
+transition: 1s; //убрала чтобы с нажатием не пропадала с секундной задержкой
 
 @media screen and (max-width: 768px) {
     display: block;
-  margin: 0 auto;
+    margin: 0 auto;
    
   }
 
 }
 
 .team-accordeon__trigger--active +.team-accordeon__content {
-    height: 100%; 
-    //margin-bottom: 1.875rem; 
+    height: 100px; 
+    @media screen and (max-width: 768px) {
+        height: 200px;
+        padding-top: 5px;
+        
+       
+      }
 }
 
 .team-accordeon__content-photo {

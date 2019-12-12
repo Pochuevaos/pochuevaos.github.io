@@ -1,21 +1,21 @@
 /*
-Error: Undefined variable: "$white".
-        on line 80 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\slider.scss
+Error: Undefined variable: "$black".
+        on line 12 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\full.scr.menu.scss
 
-75:     transform: rotate(-90deg);  
-76: 
-77: }
-78: 
-79: .slider_title {
-80:     color: $white;
-81:     font-weight: 400;
-82:     line-height: 3.9375rem;
-83:     text-align: start;
-84:     padding-right: 5%;
-85:     padding-top: 0%;   
+7:     right: 0;
+8:     bottom: 0;
+9:     width: 100%;
+10:     height: 100%;
+11:     padding: 0.625rem 1.5625rem;
+12:     background-color: $black;
+13:     align-items: start;
+14:     justify-content: space-between;
+15:     z-index: 10000;
+16:     opacity: 0;
+17:    
 
 Backtrace:
-C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\slider.scss:80
+C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\full.scr.menu.scss:12
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -62,4 +62,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 80 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\slider.scss\A \A 75:     transform: rotate(-90deg);  \A 76: \A 77: }\A 78: \A 79: .slider_title {\A 80:     color: $white;\A 81:     font-weight: 400;\A 82:     line-height: 3.9375rem;\A 83:     text-align: start;\A 84:     padding-right: 5%;\A 85:     padding-top: 0%;   "; }
+  content: "Error: Undefined variable: \"$black\".\A         on line 12 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\full.scr.menu.scss\A \A 7:     right: 0;\A 8:     bottom: 0;\A 9:     width: 100%;\A 10:     height: 100%;\A 11:     padding: 0.625rem 1.5625rem;\A 12:     background-color: $black;\A 13:     align-items: start;\A 14:     justify-content: space-between;\A 15:     z-index: 10000;\A 16:     opacity: 0;\A 17:    "; }
