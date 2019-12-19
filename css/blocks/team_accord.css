@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$white".
-        on line 56 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\team_accord.scss
+        on line 57 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\team_accord.scss
 
-51: font-family: 'Gagalin', Helvetica, sans-serif;
-52: text-transform: uppercase;
-53: //font-size: 0.875rem; 
-54: display: inline-flex;
-55: align-items: center;
-56: color: $white;
-57: font-size: 1.5625rem;
-58: font-weight: 400;
-59: line-height: 29.13px;
-60: margin: 2%;
-61: //margin-bottom: 1.5625; 
+52: font-family: 'Gagalin', Helvetica, sans-serif;
+53: text-transform: uppercase;
+54: //font-size: 0.875rem; 
+55: display: inline-flex;
+56: align-items: center;
+57: color: $white;
+58: font-size: 1.5625rem;
+59: font-weight: 400;
+60: line-height: 29.13px;
+61: margin: 2%;
+62: //margin-bottom: 1.5625; 
 
 Backtrace:
-C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\team_accord.scss:56
+C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\team_accord.scss:57
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -62,4 +62,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 56 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\team_accord.scss\A \A 51: font-family: 'Gagalin', Helvetica, sans-serif;\A 52: text-transform: uppercase;\A 53: //font-size: 0.875rem; \A 54: display: inline-flex;\A 55: align-items: center;\A 56: color: $white;\A 57: font-size: 1.5625rem;\A 58: font-weight: 400;\A 59: line-height: 29.13px;\A 60: margin: 2%;\A 61: //margin-bottom: 1.5625; "; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 57 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\team_accord.scss\A \A 52: font-family: 'Gagalin', Helvetica, sans-serif;\A 53: text-transform: uppercase;\A 54: //font-size: 0.875rem; \A 55: display: inline-flex;\A 56: align-items: center;\A 57: color: $white;\A 58: font-size: 1.5625rem;\A 59: font-weight: 400;\A 60: line-height: 29.13px;\A 61: margin: 2%;\A 62: //margin-bottom: 1.5625; "; }

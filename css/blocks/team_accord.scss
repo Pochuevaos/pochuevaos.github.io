@@ -27,6 +27,7 @@ width: 50%;
 
 
 
+
 .team__title {
 //margin-bottom: 1.875rem;
 font-size: 3.125rem;
@@ -91,7 +92,7 @@ width: 22.5rem;
 height: 0;
 overflow: hidden;
 line-height: 1.42;
-transition: 1s; //убрала чтобы с нажатием не пропадала с секундной задержкой
+transition: 0.8s; 
 
 @media screen and (max-width: 768px) {
     display: block;

@@ -212,6 +212,36 @@ p {
 .ingredients__close:hover {
   opacity: 1; }
 
+@media screen and (min-width: 900px) {
+  .ingredients__close {
+    display: none; } }
+.popup__close {
+  position: relative;
+  right: 2rem;
+  top: 1rem;
+  width: 1rem;
+  height: 1rem;
+  opacity: 0.8;
+  cursor: pointer; }
+
+.popup__close:before, .popup__close:after {
+  position: absolute;
+  left: 0.9375rem;
+  content: ' ';
+  height: 17px;
+  width: 2px;
+  border-radius: 3px;
+  background-color: #e35028; }
+
+.popup__close:before {
+  transform: rotate(45deg); }
+
+.popup__close:after {
+  transform: rotate(-45deg); }
+
+.popup__close:hover {
+  opacity: 1; }
+
 /*---------------------------------Page1------------------------------------*/
 .section_hero {
   background-image: url(/img/bg1.jpg);
@@ -570,7 +600,7 @@ article {
   height: 0;
   overflow: hidden;
   line-height: 1.42;
-  transition: 1s; }
+  transition: 0.8s; }
   @media screen and (max-width: 768px) {
     .team-accordeon__content {
       display: block;
@@ -823,7 +853,7 @@ input[type="radio"]:checked + label:after {
   top: 0;
   right: 0;
   bottom: 0;
-  left: 50%;
+  left: 30%;
   display: flex;
   justify-content: flex-end;
   max-width: 100%;
@@ -1260,6 +1290,62 @@ address {
 
 .fullscreen-menu__dot {
   color: #fff; }
+
+.overlay {
+  display: none;
+  position: fixed;
+  z-index: 12000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8); }
+
+.overlay__container {
+  width: 100%;
+  height: 100%; }
+
+.overlay__content {
+  margin: 25% auto;
+  height: 30%;
+  width: 40%;
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 3%; }
+  @media screen and (max-width: 480px) {
+    .overlay__content {
+      height: 60%;
+      width: 60%; } }
+
+.overlay__close {
+  margin-left: 395px;
+  position: absolute;
+  margin-top: -30px; }
+  @media screen and (max-width: 768px) {
+    .overlay__close {
+      margin-left: 280px; } }
+  @media screen and (max-width: 480px) {
+    .overlay__close {
+      margin-left: 270px;
+      padding-top: 2%; } }
+
+.overlay__title {
+  color: #2f3234;
+  font-family: 'Gagalin';
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 2.0625rem; }
+
+.overlay__text {
+  color: #2f3234;
+  font-family: Ubuntu-L;
+  font-size: 0.875rem;
+  font-weight: 300;
+  line-height: 1;
+  text-overflow: ellipsis;
+  height: 10.9375rem;
+  overflow: hidden; }
 
 /*# sourceMappingURL=main.css.map */
 
