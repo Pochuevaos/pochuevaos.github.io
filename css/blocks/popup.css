@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$white".
-        on line 42 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\popup.scss
+        on line 18 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\popup.scss
 
-37:     // @media screen and (max-width: 480px) {
-38:     //     height: 60%;
-39:     //     width: 60%;
-40:     // }
-41:     padding: 30px 20px;
-42:     background-color: $white;
-43:     border-radius: 5px;
-44:     display: flex;
-45:     margin: 20% auto;
-46:     flex-direction: column;
-47:     max-width: 460px;
+13:     opacity: .92;
+14: }
+15: 
+16: .overlay__content {
+17:     padding: 30px 20px;
+18:     background-color: $white;
+19:     border-radius: 5px;
+20:     display: flex;
+21:     margin: 20% auto;
+22:     flex-direction: column;
+23:     max-width: 460px;
 
 Backtrace:
-C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\popup.scss:42
+C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\popup.scss:18
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -62,4 +62,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 42 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\popup.scss\A \A 37:     // @media screen and (max-width: 480px) {\A 38:     //     height: 60%;\A 39:     //     width: 60%;\A 40:     // }\A 41:     padding: 30px 20px;\A 42:     background-color: $white;\A 43:     border-radius: 5px;\A 44:     display: flex;\A 45:     margin: 20% auto;\A 46:     flex-direction: column;\A 47:     max-width: 460px;"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 18 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\popup.scss\A \A 13:     opacity: .92;\A 14: }\A 15: \A 16: .overlay__content {\A 17:     padding: 30px 20px;\A 18:     background-color: $white;\A 19:     border-radius: 5px;\A 20:     display: flex;\A 21:     margin: 20% auto;\A 22:     flex-direction: column;\A 23:     max-width: 460px;"; }

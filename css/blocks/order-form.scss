@@ -270,3 +270,56 @@ input[type="checkbox"]:checked + label:after,
 input[type="radio"]:checked + label:after {
     opacity: 1;
 }
+
+// Валидация
+input:invalid {border-color: $red;}
+input:valid {border-color: $black;}
+
+.error {
+    color: $red;
+}
+
+// Модальное окно
+.form__modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2f3234;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    z-index: 100;
+    // opacity: .92;
+    opacity: 1;
+}
+
+.form-result {
+    padding: 30px 20px;
+    background-color: $white;
+    border-radius: 5px;
+    display: flex;
+    margin: 20% auto;
+    flex-direction: column;
+    max-width: 200px;
+    position: relative;
+    opacity: 1;
+    font-weight: 'Ubuntu-L';
+    font-size: 14px;
+}
+
+.form-close {
+    padding: 0.8125rem 1.5rem;   
+    background-color: $red;
+    border-radius: 4px;
+    border: 0;
+    color: $white;
+    font-size: 0.8125rem ;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+}

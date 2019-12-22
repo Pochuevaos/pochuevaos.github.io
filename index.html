@@ -423,36 +423,39 @@
                 <div class="form__row">
                     <label class="form__label">
                         <div class="form__label-title">Имя</div>
-                        <input type="text" class="form__input">
+                        <input type="text" class="form__input" name="name" placeholder="Имя" required>
+                        <div class="error"></div>
                     </label>
                     <label class="form__label">
                             <div class="form__label-title">Телефон</div>
-                            <input type="text" class="form__input">
+                            <input type="tel" class="form__input" name="phone" required>
+                            <div class="error"></div>
+                            <!-- pattern="[\+]\d{1}[\-]\d{3}[\-]\d{3}[\-]\d{2}[\-]\d{2}" placeholder="+7-XXX-XXX-XX-XX" -->
                     </label>                    
                 </div>
                 <div class="form__row">
                         <label class="form__label">
                                 <div class="form__label-title">Улица</div>
-                                <input type="text" class="form__input">
+                                <input type="text" class="form__input" name="street">
                         </label>
                 </div>
                 <div class="form__row">
                         <div class="form__row">
                                 <label class="form__label">
                                         <div class="form__label-title">Дом</div>
-                                        <input type="text" class="form__input">
+                                        <input type="text" class="form__input" name="house">
                                 </label> 
                                 <label class="form__label">
                                         <div class="form__label-title">Корпус</div>
-                                        <input type="text" class="form__input">
+                                        <input type="text" class="form__input" name="corpus">
                                 </label> 
                                 <label class="form__label">
                                         <div class="form__label-title">Квартира</div>
-                                        <input type="text" class="form__input">
+                                        <input type="text" class="form__input" name="flat"> 
                                 </label> 
                                 <label class="form__label">
                                         <div class="form__label-title">Этаж</div>
-                                        <input type="text" class="form__input">
+                                        <input type="text" class="form__input" name="floor"> 
                                 </label> 
                         </div>
                 </div>
@@ -461,7 +464,8 @@
                     <div class="form__row">
                         <label class="form__label">
                             <div class="form__label-title">Комментарии</div>
-                            <textarea class="form__input form__textarea" ></textarea>
+                            <textarea class="form__input form__textarea" name="comments" placeholder="Комментарий" required></textarea>
+                            <div class="error"></div>
                          </label>
                         </div>
                         <div class="question__wrapper">
@@ -470,19 +474,19 @@
                             <label class="form__question">
                             
                             <div class="form__label-title">
-                                    <input type="radio" name="rb" id="rb2"> <label for="rb2">Потребуется сдача</label></div>
+                                    <input type="radio" name="rb" id="rb2" value="shortChange"> <label for="rb2">Потребуется сдача</label></div>
                             </label>
                         </label>
                         <label class="form__question">
                             <div class="form__label-title">
-                                    <input checked type="radio" name="rb" id="rb3"> <label for="rb3">Оплата по карте</label></div>                            
+                                    <input checked type="radio" name="rb" id="rb3" value="payCard"> <label for="rb3">Оплата по карте</label></div>                            
                         </label>
                     </div>
                     <div class="form__row">
                         <label class="form__label form__label-checkbox">
                             
                             <div class="form__label-title">
-                                    <input type="checkbox" id="cb2"> <label for="cb2" class="form__label form__label-checkbox" > Не перезванивать</label></div>
+                                    <input type="checkbox" id="cb2" name="cb2" value="callBack"> <label for="cb2" class="form__label form__label-checkbox" > Не перезванивать</label></div>
                         </label>
                  
                     </div>
@@ -496,6 +500,10 @@
                 </div>
             </div>
          </form>
+         <div class="form__modal">
+            <div class="form-result">Сообщение отправлено</div>
+            <a href="#" class="form-close">закрыть</a>
+        </div>
         </div>
     </div>
      </section>
