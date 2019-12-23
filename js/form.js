@@ -1,5 +1,13 @@
 const myForm = document.querySelector('.form');
 const sendButton = document.querySelector('button[type="submit"]');
+const modal = document.querySelector('.form__modal');
+const closeModal = document.querySelector('.form-close');
+
+closeModal .addEventListener('click', function(e) {
+    // popup.classList.remove('popup');
+    event.preventDefault();
+    modal.style.display = 'none'
+})
 
 function validateField(field) {
     if (!field.checkValidity()) {
@@ -50,7 +58,7 @@ sendButton.addEventListener('click', function(e) {
         xhr.addEventListener('load', function() {
             if (xhr.response.status) {
                console.log('ok'); 
-               let modal = document.querySelector('.form__modal');
+               
                modal.style.display = 'inline-block';
             }
         });

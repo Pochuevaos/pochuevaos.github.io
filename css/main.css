@@ -834,12 +834,6 @@ input[type="checkbox"]:checked + label:after,
 input[type="radio"]:checked + label:after {
   opacity: 1; }
 
-input:invalid {
-  border-color: #e35028; }
-
-input:valid {
-  border-color: #2f3234; }
-
 .error {
   color: #e35028; }
 
@@ -855,33 +849,34 @@ input:valid {
   justify-content: center;
   text-align: center;
   z-index: 100;
+  opacity: .92; }
+
+.form-content {
+  padding: 1.875rem 1.25rem;
+  background-color: #fff;
+  border-radius: 5px;
+  margin: 20% auto;
+  max-width: 12.5rem;
+  position: relative;
   opacity: 1; }
 
 .form-result {
-  padding: 30px 20px;
-  background-color: #fff;
-  border-radius: 5px;
-  display: flex;
-  margin: 20% auto;
-  flex-direction: column;
-  max-width: 200px;
-  position: relative;
-  opacity: 1;
+  margin-bottom: 20%;
   font-weight: 'Ubuntu-L';
-  font-size: 14px; }
+  font-size: 0.875rem; }
 
 .form-close {
   padding: 0.8125rem 1.5rem;
   background-color: #e35028;
-  border-radius: 4px;
+  border-radius: 0.25rem;
   border: 0;
   color: #fff;
   font-size: 0.8125rem;
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
-  width: 100px;
-  height: 100px; }
+  width: 6.25rem;
+  height: 6.25rem; }
 
 /*------Menu---*/
 .menu {
@@ -977,12 +972,6 @@ input:valid {
 
 /*------contacts---*/
 .contacts {
-  background: url(../img/bg-map1.jpg);
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  width: 100%;
   position: relative; }
 
 .socials {
@@ -1355,13 +1344,13 @@ address {
   opacity: .92; }
 
 .overlay__content {
-  padding: 30px 20px;
+  padding: 1.875rem 1.25rem;
   background-color: #fff;
   border-radius: 5px;
   display: flex;
   margin: 20% auto;
   flex-direction: column;
-  max-width: 460px;
+  max-width: 28.75rem;
   position: relative; }
 
 .popup__close {
@@ -1369,19 +1358,19 @@ address {
   cursor: pointer; }
   @media screen and (max-width: 768px) {
     .popup__close {
-      margin-left: 280px; } }
+      margin-left: 17.5rem; } }
   @media screen and (max-width: 480px) {
     .popup__close {
-      margin-left: 270px;
+      margin-left: 16.875rem;
       padding-top: 2%; } }
 
 .overlay__title {
   color: #2f3234;
-  margin-bottom: rem(25px);
+  margin-bottom: 1.5625rem;
   font-family: 'gagalin';
   font-weight: 400;
   font-style: normal;
-  font-size: rem(14px);
+  font-size: 0.875rem;
   text-transform: uppercase; }
 
 .overlay__text {
@@ -1389,7 +1378,7 @@ address {
   font-family: 'Ubuntu-R';
   font-weight: 300;
   font-style: normal;
-  font-size: rem(14px);
+  font-size: 0.875rem;
   line-height: 150%; }
 
 /*# sourceMappingURL=main.css.map */

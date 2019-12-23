@@ -6,13 +6,13 @@ Error: Undefined variable: "$white".
 14: }
 15: 
 16: .overlay__content {
-17:     padding: 30px 20px;
+17:     padding: 1.875rem 1.25rem;
 18:     background-color: $white;
 19:     border-radius: 5px;
 20:     display: flex;
 21:     margin: 20% auto;
 22:     flex-direction: column;
-23:     max-width: 460px;
+23:     max-width: 28.75rem;
 
 Backtrace:
 C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\popup.scss:18
@@ -62,4 +62,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 18 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\popup.scss\A \A 13:     opacity: .92;\A 14: }\A 15: \A 16: .overlay__content {\A 17:     padding: 30px 20px;\A 18:     background-color: $white;\A 19:     border-radius: 5px;\A 20:     display: flex;\A 21:     margin: 20% auto;\A 22:     flex-direction: column;\A 23:     max-width: 460px;"; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 18 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\popup.scss\A \A 13:     opacity: .92;\A 14: }\A 15: \A 16: .overlay__content {\A 17:     padding: 1.875rem 1.25rem;\A 18:     background-color: $white;\A 19:     border-radius: 5px;\A 20:     display: flex;\A 21:     margin: 20% auto;\A 22:     flex-direction: column;\A 23:     max-width: 28.75rem;"; }
