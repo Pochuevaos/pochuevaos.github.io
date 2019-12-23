@@ -279,14 +279,13 @@ input[type="radio"]:checked + label:after {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #2f3234;
+    background-color: rgba(62, 64, 65, 0.8);
     display: none;
     align-items: center;
     justify-content: center;
     text-align:center;
     z-index: 100;
-    opacity: .92;
-    
+      
 }
 
 .form-content {
@@ -296,7 +295,7 @@ input[type="radio"]:checked + label:after {
     margin: 20% auto;
     max-width: 12.5rem;
     position: relative;
-    opacity: 1;   
+     
 }
 
 .form-result {

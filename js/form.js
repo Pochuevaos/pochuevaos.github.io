@@ -4,7 +4,6 @@ const modal = document.querySelector('.form__modal');
 const closeModal = document.querySelector('.form-close');
 
 closeModal .addEventListener('click', function(e) {
-    // popup.classList.remove('popup');
     event.preventDefault();
     modal.style.display = 'none'
 })
@@ -12,7 +11,6 @@ closeModal .addEventListener('click', function(e) {
 function validateField(field) {
     if (!field.checkValidity()) {
         field.nextElementSibling.textContent = field.validationMessage;
-
         return false;
     } else {
         field.nextElementSibling.textContent = '';
@@ -38,6 +36,10 @@ function validateForm(form) {
     return valid;
 }
 
+function setMessage(message) {
+    modal.style.display = 'inline-block';
+    document.getElementById('result').innerHTML = message; 
+}
 
 sendButton.addEventListener('click', function(e) {
     event.preventDefault();
@@ -53,13 +55,13 @@ sendButton.addEventListener('click', function(e) {
 
         const xhr = new XMLHttpRequest();
         xhr.responseType = 'json';
-        xhr.open('POST', 'https://webdev-api.loftschool.com/sendmail');
+        xhr.open('POST', 'https://webdev-api.loftschool.com/sendmail/fail');
         xhr.send(data);
         xhr.addEventListener('load', function() {
-            if (xhr.response.status) {
-               console.log('ok'); 
-               
-               modal.style.display = 'inline-block';
+            if (xhr.response.status == '1') {
+                setMessage("Сообщение отправлено");
+            } else if (xhr.response.status == '0') {
+                setMessage("Ошибка!");
             }
         });
     }

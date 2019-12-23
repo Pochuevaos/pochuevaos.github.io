@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$white".
-        on line 81 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\slider.scss
+        on line 83 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\slider.scss
 
-76:     transform: rotate(-90deg);  
-77: 
-78: }
+78:     transform: rotate(-90deg);  
 79: 
-80: .slider_title {
-81:     color: $white;
-82:     font-weight: 400;
-83:     line-height: 3.9375rem;
-84:     text-align: start;
-85:     padding-right: 5%;
-86:     padding-top: 0%;   
+80: }
+81: 
+82: .slider_title {
+83:     color: $white;
+84:     font-weight: 400;
+85:     line-height: 3.9375rem;
+86:     text-align: start;
+87:     padding-right: 5%;
+88:     padding-top: 0%;   
 
 Backtrace:
-C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\slider.scss:81
+C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\slider.scss:83
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -62,4 +62,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 81 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\slider.scss\A \A 76:     transform: rotate(-90deg);  \A 77: \A 78: }\A 79: \A 80: .slider_title {\A 81:     color: $white;\A 82:     font-weight: 400;\A 83:     line-height: 3.9375rem;\A 84:     text-align: start;\A 85:     padding-right: 5%;\A 86:     padding-top: 0%;   "; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 83 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\slider.scss\A \A 78:     transform: rotate(-90deg);  \A 79: \A 80: }\A 81: \A 82: .slider_title {\A 83:     color: $white;\A 84:     font-weight: 400;\A 85:     line-height: 3.9375rem;\A 86:     text-align: start;\A 87:     padding-right: 5%;\A 88:     padding-top: 0%;   "; }
