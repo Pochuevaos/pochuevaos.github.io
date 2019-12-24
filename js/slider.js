@@ -2,7 +2,8 @@
 $(document).ready(function(){
   var slider = $('.slider').bxSlider({
       controls: false,
-      pager: false
+      pager: false,
+      adaptiveHeight: false
       
     });
     $('.slider__scroll__right').on('click', e => {

@@ -12,15 +12,12 @@ background: linear-gradient(0deg, rgba(249,180,59,1) 0%, rgba(238,141,56,1) 35%,
     }
 
 .slider__content {
-   
-
     display: flex;
 }
 
 @media screen and (max-width: 768px) {
     .slider__content {
         flex-direction: column;
-        
     }
 }
 
@@ -47,8 +44,6 @@ background: linear-gradient(0deg, rgba(249,180,59,1) 0%, rgba(238,141,56,1) 35%,
 
 @media screen and (max-width: 480px) {
     .slider__content-left {
-             
-  
     }
 }
 
@@ -168,9 +163,9 @@ position: absolute;
 
 @media screen and (min-width: 900px) {
     .composition__block {
-        top: 4.375rem;
-        right: 33.125rem;
-        left: 5rem;
+        // top: 4.375rem;
+        // right: 33.125rem;
+        // left: 5rem;
        
     }
 }
@@ -219,13 +214,14 @@ line-height: 28.11px;
     text-align: center;
     align-items: center;
     position: absolute;
+    top: 85%;
     
 }
 
 @media screen and (min-width: 900px) {
     .kkal__block{
-        top: 470px;
-        left: 86px;
+        // top: 470px;
+        // left: 86px;
        
     }
 }
@@ -336,6 +332,7 @@ line-height: 1.5rem;
 .ingredients__text, .ingredients__weight {
     font-family: 'Ubuntu-R';
     font-size: 14px;
+    
 
 }
 
