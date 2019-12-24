@@ -285,8 +285,10 @@ input[type="radio"]:checked + label:after {
     justify-content: center;
     text-align:center;
     z-index: 100;
-      
+ 
 }
+
+
 
 .form-content {
     padding: 1.875rem 1.25rem;
@@ -295,7 +297,18 @@ input[type="radio"]:checked + label:after {
     margin: 20% auto;
     max-width: 12.5rem;
     position: relative;
-     
+}
+
+@media screen and (max-width: 768px) {
+    .form-content {
+        margin: 50% auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .form-content {
+        margin: 70% auto;
+    }
 }
 
 .form-result {

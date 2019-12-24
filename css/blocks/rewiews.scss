@@ -28,8 +28,6 @@
     @media screen and (max-width: 768px) {
       width: 50%;
       height: 25%;
-       
-     
     }
   }
   
@@ -59,9 +57,9 @@
   overflow: hidden;
   @media screen and (max-width: 768px) {
     padding: 0;
-    font-size: 0.875rem;  //на моем мониторе видно только 12
+    font-size: 0.875rem;  
     align-items: center;
-    line-height: 1.5rem;     //на моем мониторе 18
+    line-height: 1.5rem;  
     overflow: visible;
     text-align: center;
   }
@@ -69,9 +67,6 @@
   display: none;
 }
   }
-  
-    
- 
   
   .reviews__hover {
     opacity: 0;
@@ -88,7 +83,6 @@
 
     
     @media screen and (max-width: 768px) {
-    //padding: 15px 15px 20px 15px;
     padding: 7%;
     align-items: center;
     display: flex;

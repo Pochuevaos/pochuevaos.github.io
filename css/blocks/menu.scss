@@ -44,7 +44,19 @@
   
   .menu__item-active {
     flex-grow: 1;
+ }
+
+  @media screen and (max-width: 480px) {
+    .menu__item-active {
+    position: absolute; 
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 10;
+    }
   }
+
 
   .menu__item-active .menu__title-text {
     color: $yellow;
@@ -62,6 +74,13 @@
     opacity: 1;
   }
   
+  @media screen and (max-width: 480px) {
+    .menu__item-active .menu__item-text {
+      transition-delay: .3s;
+    }
+  }
+
+
   .menu__item-title {
     text-decoration: none;
     position: relative;
@@ -109,3 +128,10 @@
     overflow: hidden;
   }
 
+  .menu__close {
+    // position: absolute;
+    width: 20px;
+    height: 20px;
+    color: white;
+    background-color: white;
+  }

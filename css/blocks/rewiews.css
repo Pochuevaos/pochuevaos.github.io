@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$white".
-        on line 44 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\rewiews.scss
+        on line 42 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\rewiews.scss
 
-39:   object-fit: cover;
-40:   object-position: center;
-41:   }
-42:   
-43:   .reviews__name {
-44:   color: $white;
-45:   font-family: 'Gagalin';
-46:   font-size: 0.875rem; 
-47:   font-weight: 300;
-48:   line-height: 2.0625rem; 
-49:      
+37:   object-fit: cover;
+38:   object-position: center;
+39:   }
+40:   
+41:   .reviews__name {
+42:   color: $white;
+43:   font-family: 'Gagalin';
+44:   font-size: 0.875rem; 
+45:   font-weight: 300;
+46:   line-height: 2.0625rem; 
+47:      
 
 Backtrace:
-C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\rewiews.scss:44
+C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\rewiews.scss:42
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -62,4 +62,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$white\".\A         on line 44 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\rewiews.scss\A \A 39:   object-fit: cover;\A 40:   object-position: center;\A 41:   }\A 42:   \A 43:   .reviews__name {\A 44:   color: $white;\A 45:   font-family: 'Gagalin';\A 46:   font-size: 0.875rem; \A 47:   font-weight: 300;\A 48:   line-height: 2.0625rem; \A 49:      "; }
+  content: "Error: Undefined variable: \"$white\".\A         on line 42 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\rewiews.scss\A \A 37:   object-fit: cover;\A 38:   object-position: center;\A 39:   }\A 40:   \A 41:   .reviews__name {\A 42:   color: $white;\A 43:   font-family: 'Gagalin';\A 44:   font-size: 0.875rem; \A 45:   font-weight: 300;\A 46:   line-height: 2.0625rem; \A 47:      "; }

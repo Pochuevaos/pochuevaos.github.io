@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .section__player__title {
@@ -23,20 +24,22 @@ margin: 0 auto;
 }
 
 video {
-// width: 660px;
-// height: 370px;
 position: relative;
 width: 100%;
-
 }
 
 .player__content {
     position: relative;
+    width: 70%;
+}
+
+@media screen and (max-width: 480px) {
+    .player__content {
+        width: 100%;
+    }
 }
 
 .video__panel {
-    height: 35px;
-    width: 660px ;
     background-color: $black;
     margin-top: -1%;
     position: relative; 
@@ -47,33 +50,49 @@ width: 100%;
     padding-top: 1%;
 }
 
+
 .play__btn {
     fill: $white;
     position: absolute;
     top: 30%;
-    left: 50%;
+    left: 45%;
     
 }
 
 .play__btn2 {
 
-    // left: 3%;
 }
 
 .play-icon {
-    height: 118px;
-    width: 82px;
+    height: 7.375rem;
+    width: 5.125rem;
+}
+
+@media screen and (max-width: 768px) {
+    .play-icon {
+        opacity: 0.9;
+        fill: black;
+       }
+}
+
+@media screen and (max-width: 480px) {
+    .play-icon {
+        width: 4.5rem;
+        height: 6.625rem;
+        opacity: 0.9;
+        fill: black;
+       }
 }
 
 .play-icon2 {
-    height: 22px;
-    width: 16px;
+    height: 1.375rem;
+    width: 1rem;
     fill: #626262;
 }
 
 .volume-icon {
-    height: 22px;
-    width: 18px;
+    height: 1.375rem;
+    width: 1.125rem;
     fill: #626262;
 }
 
@@ -84,8 +103,8 @@ width: 100%;
 // Ползунок
 
 .range__wrp {
-    width: 444px;
-    margin: 20px;
+    width: 27.75rem;
+    margin: 1.25rem;
 
 }
 
@@ -97,17 +116,23 @@ width: 100%;
     margin-top: 2%;
     background-color: #626262 ;
     border-radius: 3px;
-    width:444px; 
+    width: 27.75rem; 
     height:4px;
     -webkit-appearance: none;
     outline: none;
 }
 
+@media screen and (max-width: 768px) {
+    #progress {
+        width: 100%; 
+    }
+}
+
 
 #progress::-webkit-slider-thumb {
     -webkit-appearance: none;
-    width: 12px;
-    height: 12px;
+    width: 0.75rem;
+    height: 0.75rem;
     border-radius: 100%;
     background-color: #626262 ;
  }
@@ -117,7 +142,7 @@ width: 100%;
     margin-top: 2%;
     background-color: #626262 ;
     border-radius: 3px;
-    width: 58px; 
+    width: 3.625rem; 
     height:4px;
     -webkit-appearance: none;
     outline: none;
@@ -125,8 +150,8 @@ width: 100%;
 
  #volume::-webkit-slider-thumb {
     -webkit-appearance: none;
-    width: 12px;
-    height: 12px;
+    width: 0.75rem;
+    height: 0.75rem;
     border-radius: 100%;
     background-color: #626262 ;
  }

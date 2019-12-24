@@ -22,7 +22,18 @@
     max-width: 28.75rem;
     position: relative;
 
+    @media screen and (max-width: 768px) {
+        margin: 50% auto;
+        max-width: 30.75rem;;
+      }
+
+    @media screen and (max-width: 480px) {
+        margin: 50% auto;
+        max-width: 30.75rem;;
+      } 
 }
+
+
 
 
 

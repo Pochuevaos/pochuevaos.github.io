@@ -3,9 +3,15 @@ const sendButton = document.querySelector('button[type="submit"]');
 const modal = document.querySelector('.form__modal');
 const closeModal = document.querySelector('.form-close');
 
-closeModal .addEventListener('click', function(e) {
+console.log('111');
+
+closeModal.addEventListener('click', function(e) {
     event.preventDefault();
     modal.style.display = 'none'
+
+    var $body = $(document.body);
+    $body.css("overflow", "auto");
+    $body.width("auto");
 })
 
 function validateField(field) {
@@ -38,7 +44,11 @@ function validateForm(form) {
 
 function setMessage(message) {
     modal.style.display = 'inline-block';
-    document.getElementById('result').innerHTML = message; 
+    document.getElementById('result').innerHTML = message;
+    var $body = $(document.body);
+    var oldWidth = $body.innerWidth();
+    $body.css("overflow", "hidden");
+    $body.width(oldWidth); 
 }
 
 sendButton.addEventListener('click', function(e) {
@@ -55,7 +65,7 @@ sendButton.addEventListener('click', function(e) {
 
         const xhr = new XMLHttpRequest();
         xhr.responseType = 'json';
-        xhr.open('POST', 'https://webdev-api.loftschool.com/sendmail/fail');
+        xhr.open('POST', 'https://webdev-api.loftschool.com/sendmail');
         xhr.send(data);
         xhr.addEventListener('load', function() {
             if (xhr.response.status == '1') {

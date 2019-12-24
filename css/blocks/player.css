@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$black".
-        on line 17 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\player.scss
+        on line 18 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\player.scss
 
-12:     flex-direction: column;
 13:     align-items: center;
-14: }
-15: 
-16: .section__player__title {
-17: color: $black;
-18: font-family: Gagalin;
-19: font-size: 3.8125rem;
-20: font-weight: 400;
-21: line-height: 3.375rem;
-22: margin: 0 auto;
+14:     justify-content: center;
+15: }
+16: 
+17: .section__player__title {
+18: color: $black;
+19: font-family: Gagalin;
+20: font-size: 3.8125rem;
+21: font-weight: 400;
+22: line-height: 3.375rem;
+23: margin: 0 auto;
 
 Backtrace:
-C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\player.scss:17
+C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\player.scss:18
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
@@ -62,4 +62,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$black\".\A         on line 17 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\player.scss\A \A 12:     flex-direction: column;\A 13:     align-items: center;\A 14: }\A 15: \A 16: .section__player__title {\A 17: color: $black;\A 18: font-family: Gagalin;\A 19: font-size: 3.8125rem;\A 20: font-weight: 400;\A 21: line-height: 3.375rem;\A 22: margin: 0 auto;"; }
+  content: "Error: Undefined variable: \"$black\".\A         on line 18 of C:\Users\koltigal-2\Desktop\burger (1)\burger\css\blocks\player.scss\A \A 13:     align-items: center;\A 14:     justify-content: center;\A 15: }\A 16: \A 17: .section__player__title {\A 18: color: $black;\A 19: font-family: Gagalin;\A 20: font-size: 3.8125rem;\A 21: font-weight: 400;\A 22: line-height: 3.375rem;\A 23: margin: 0 auto;"; }

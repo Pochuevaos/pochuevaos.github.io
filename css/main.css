@@ -187,7 +187,7 @@ p {
 
 .ingredients__close {
   position: absolute;
-  right: 2rem;
+  right: 3rem;
   top: 1rem;
   width: 2rem;
   height: 2rem;
@@ -240,6 +240,34 @@ p {
   transform: rotate(-45deg); }
 
 .popup__close:hover {
+  opacity: 1; }
+
+menu
+.menu__close {
+  position: relative;
+  width: 1rem;
+  height: 1rem;
+  opacity: 0.8;
+  cursor: pointer; }
+
+.menu__close:before, .menu__close:after {
+  position: absolute;
+  left: 0.9375rem;
+  content: ' ';
+  height: 17px;
+  width: 2px;
+  border-radius: 3px;
+  background-color: #fff;
+  left: 90%;
+  top: 2%; }
+
+.menu__close:before {
+  transform: rotate(45deg); }
+
+.menu__close:after {
+  transform: rotate(-45deg); }
+
+.menu__close:hover {
   opacity: 1; }
 
 /*---------------------------------Page1------------------------------------*/
@@ -858,6 +886,12 @@ input[type="radio"]:checked + label:after {
   max-width: 12.5rem;
   position: relative; }
 
+@media screen and (max-width: 768px) {
+  .form-content {
+    margin: 50% auto; } }
+@media screen and (max-width: 480px) {
+  .form-content {
+    margin: 70% auto; } }
 .form-result {
   margin-bottom: 20%;
   font-weight: 'Ubuntu-L';
@@ -914,6 +948,14 @@ input[type="radio"]:checked + label:after {
 .menu__item-active {
   flex-grow: 1; }
 
+@media screen and (max-width: 480px) {
+  .menu__item-active {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 10; } }
 .menu__item-active .menu__title-text {
   color: #f9b43b; }
 
@@ -927,6 +969,9 @@ input[type="radio"]:checked + label:after {
   transition-delay: .7s;
   opacity: 1; }
 
+@media screen and (max-width: 480px) {
+  .menu__item-active .menu__item-text {
+    transition-delay: .3s; } }
 .menu__item-title {
   text-decoration: none;
   position: relative;
@@ -967,6 +1012,12 @@ input[type="radio"]:checked + label:after {
   transition: .5s;
   opacity: 0;
   overflow: hidden; }
+
+.menu__close {
+  width: 20px;
+  height: 20px;
+  color: white;
+  background-color: white; }
 
 /*------contacts---*/
 .contacts {
@@ -1132,7 +1183,7 @@ address {
   .slider_title {
     margin-top: 0%;
     font-size: 3.125rem;
-    line-height: 52.64px;
+    line-height: 3.25remx;
     align-items: center;
     text-align: center;
     padding-left: 2%;
@@ -1175,16 +1226,11 @@ address {
 .composition__block:hover {
   background-color: #e35028; }
 
-@media screen and (max-width: 768px) {
-  .composition__block {
-    top: 120px;
-    right: 530px;
-    left: 150px; } }
 @media screen and (max-width: 480px) {
   .composition__block {
-    top: 50px;
-    right: 20px;
-    left: 16px; } }
+    top: 0px;
+    left: 0px;
+    padding-top: 2%; } }
 .slider__container {
   position: relative; }
 
@@ -1196,7 +1242,7 @@ address {
 .composition__text {
   color: #fff;
   font-family: Gagalin;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   line-height: 28.11px; }
 
@@ -1211,14 +1257,13 @@ address {
 
 @media screen and (max-width: 768px) {
   .kkal__block {
-    top: 112px;
-    right: 160px;
-    left: 550px; } }
+    top: 0rem;
+    right: 10rem;
+    left: 38.375rem; } }
 @media screen and (max-width: 480px) {
   .kkal__block {
-    top: 50px;
-    right: 20px;
-    left: 415px; } }
+    top: 0px;
+    left: 20.625rem; } }
 .kkal-icon {
   width: 3.75rem;
   height: 3.75rem;
@@ -1238,13 +1283,17 @@ address {
   padding-top: 1.5625rem; }
 
 .black__burger_img {
-  margin-bottom: 20px; }
+  margin-bottom: 1.25rem; }
 
 @media screen and (max-width: 768px) {
   .black__burger_img {
     margin-bottom: 0;
-    padding-top: 60px;
+    padding-top: 3.75rem;
     text-align: center; } }
+@media screen and (max-width: 768px) {
+  .burger2 {
+    max-width: 80%;
+    padding-top: 5%; } }
 .ingredients {
   display: none;
   background-color: #fff;
@@ -1345,6 +1394,14 @@ address {
   flex-direction: column;
   max-width: 28.75rem;
   position: relative; }
+  @media screen and (max-width: 768px) {
+    .overlay__content {
+      margin: 50% auto;
+      max-width: 30.75rem; } }
+  @media screen and (max-width: 480px) {
+    .overlay__content {
+      margin: 50% auto;
+      max-width: 30.75rem; } }
 
 .popup__close {
   position: absolute;
@@ -1385,7 +1442,8 @@ address {
   text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  justify-content: center; }
 
 .section__player__title {
   color: #2f3234;
@@ -1400,11 +1458,13 @@ video {
   width: 100%; }
 
 .player__content {
-  position: relative; }
+  position: relative;
+  width: 70%; }
 
+@media screen and (max-width: 480px) {
+  .player__content {
+    width: 100%; } }
 .video__panel {
-  height: 35px;
-  width: 660px;
   background-color: #2f3234;
   margin-top: -1%;
   position: relative;
@@ -1418,42 +1478,55 @@ video {
   fill: #fff;
   position: absolute;
   top: 30%;
-  left: 50%; }
+  left: 45%; }
 
 .play-icon {
-  height: 118px;
-  width: 82px; }
+  height: 7.375rem;
+  width: 5.125rem; }
 
+@media screen and (max-width: 768px) {
+  .play-icon {
+    opacity: 0.9;
+    fill: black; } }
+@media screen and (max-width: 480px) {
+  .play-icon {
+    width: 4.5rem;
+    height: 6.625rem;
+    opacity: 0.9;
+    fill: black; } }
 .play-icon2 {
-  height: 22px;
-  width: 16px;
+  height: 1.375rem;
+  width: 1rem;
   fill: #626262; }
 
 .volume-icon {
-  height: 22px;
-  width: 18px;
+  height: 1.375rem;
+  width: 1.125rem;
   fill: #626262; }
 
 .volume__input {
   fill: #626262; }
 
 .range__wrp {
-  width: 444px;
-  margin: 20px; }
+  width: 27.75rem;
+  margin: 1.25rem; }
 
 #progress {
   margin-top: 2%;
   background-color: #626262;
   border-radius: 3px;
-  width: 444px;
+  width: 27.75rem;
   height: 4px;
   -webkit-appearance: none;
   outline: none; }
 
+@media screen and (max-width: 768px) {
+  #progress {
+    width: 100%; } }
 #progress::-webkit-slider-thumb {
   -webkit-appearance: none;
-  width: 12px;
-  height: 12px;
+  width: 0.75rem;
+  height: 0.75rem;
   border-radius: 100%;
   background-color: #626262; }
 
@@ -1461,15 +1534,15 @@ video {
   margin-top: 2%;
   background-color: #626262;
   border-radius: 3px;
-  width: 58px;
+  width: 3.625rem;
   height: 4px;
   -webkit-appearance: none;
   outline: none; }
 
 #volume::-webkit-slider-thumb {
   -webkit-appearance: none;
-  width: 12px;
-  height: 12px;
+  width: 0.75rem;
+  height: 0.75rem;
   border-radius: 100%;
   background-color: #626262; }
 

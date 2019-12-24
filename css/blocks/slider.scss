@@ -100,7 +100,7 @@ background: linear-gradient(0deg, rgba(249,180,59,1) 0%, rgba(238,141,56,1) 35%,
     .slider_title {
       margin-top: 0%;
       font-size: 3.125rem;
-      line-height: 52.64px;
+      line-height: 3.25remx;
       align-items: center;
       text-align: center;
       padding-left: 2%;
@@ -171,20 +171,20 @@ position: absolute;
 }
 
 
-@media screen and (max-width: 768px) {
-    .composition__block {
-        top: 120px;
-        right: 530px;
-        left: 150px;
-    }
-}
+// @media screen and (max-width: 768px) {
+//     .composition__block {
+//         top: 7.5rem;
+//         right: 33.125rem;
+//         left: 9.375rem;
+//     }
+// }
 
 
 @media screen and (max-width: 480px) {
     .composition__block {
-        top: 50px;
-        right: 20px;
-        left: 16px;
+        top: 0px;
+        left: 0px;
+        padding-top: 2%;
     }
 }
 
@@ -201,7 +201,7 @@ fill: $white;
 .composition__text {
 color: $white;
 font-family: Gagalin;
-font-size: 14px;
+font-size: 0.875rem;
 font-weight: 400;
 line-height: 28.11px;
 }
@@ -215,13 +215,10 @@ line-height: 28.11px;
     align-items: center;
     position: absolute;
     top: 85%;
-    
 }
 
 @media screen and (min-width: 900px) {
     .kkal__block{
-        // top: 470px;
-        // left: 86px;
        
     }
 }
@@ -229,18 +226,17 @@ line-height: 28.11px;
 
 @media screen and (max-width: 768px) {
     .kkal__block {
-        top: 112px;
-        right: 160px;
-        left: 550px;
-        //bottom: 660px;
+        top: 0rem;
+        right: 10rem;
+        left: 38.375rem;
+        
     }
 }
 
 @media screen and (max-width: 480px) {
     .kkal__block {
-        top: 50px;
-        right: 20px;
-        left: 415px;
+        top: 0px;
+        left: 20.625rem;
     }
 }
 
@@ -266,16 +262,24 @@ line-height: 1.5rem;
 }
 
 .black__burger_img {
-   margin-bottom: 20px;
+   margin-bottom: 1.25rem;
 }
 
 @media screen and (max-width: 768px) {
     .black__burger_img {
        margin-bottom: 0;
-       padding-top: 60px;
+       padding-top: 3.75rem;
        text-align: center;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .burger2 {
+        max-width: 80%;
+        padding-top: 5%;
+    }
+}
+
 
 // блок ингредиенты
 
